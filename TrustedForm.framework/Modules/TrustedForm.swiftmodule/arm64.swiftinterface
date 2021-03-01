@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrustedForm
+import Alamofire
+import Foundation
+import Swift
+@_exported import TrustedForm
+import UIKit
+public struct Certificate : Swift.Decodable {
+  public var consentText: Swift.String {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc public protocol TrustedFormViewDelegate : AnyObject {
+  @objc optional func submitTapped(in trustedFormView: TrustedForm.TrustedFormView)
+}
+public struct Consent : Swift.Decodable {
+  public let id: Swift.String
+  public enum ConsentType : Swift.String, Swift.Decodable {
+    case tcpa, ccpa, patriotAct
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ConsentView : Swift.Decodable {
+  public let id: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class TrustedForm {
+  public static let `default`: TrustedForm.TrustedForm
+  final public func configure(appId: Swift.String)
+  final public func createCertificate(consentText: Swift.String, completion: @escaping (Swift.Result<TrustedForm.Certificate, Swift.Error>) -> Swift.Void)
+  final public func addScreenshot(to certificate: TrustedForm.Certificate) throws
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class TrustedFormView : UIKit.UIView {
+  weak final public var delegate: TrustedForm.TrustedFormViewDelegate?
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc override final public func awakeFromNib()
+  @objc override final public func layoutSubviews()
+  @objc override final public var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+extension TrustedFormView {
+  final public func initialize(with certificate: TrustedForm.Certificate)
+}
+extension UIView {
+  public var isSensitive: Swift.Bool {
+    get
+    set
+  }
+}
+extension TrustedForm.Consent.ConsentType : Swift.Equatable {}
+extension TrustedForm.Consent.ConsentType : Swift.Hashable {}
+extension TrustedForm.Consent.ConsentType : Swift.RawRepresentable {}
