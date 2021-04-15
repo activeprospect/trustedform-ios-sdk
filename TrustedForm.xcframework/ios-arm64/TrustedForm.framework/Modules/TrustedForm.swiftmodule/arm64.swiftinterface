@@ -1,0 +1,108 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrustedForm
+import Alamofire
+import Foundation
+import Swift
+@_exported import TrustedForm
+import UIKit
+import os.log
+import os
+public struct Certificate : Swift.Decodable {
+  public let id: Swift.String
+  public var consentText: Swift.String {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc public protocol TrustedFormViewDelegate : AnyObject {
+  @objc optional func submitTapped(in trustedFormView: TrustedFormView)
+}
+public struct Consent : Swift.Decodable {
+  public let id: Swift.String
+  public enum ConsentType : Swift.String, Swift.Decodable {
+    case tcpa, ccpa, patriotAct
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ConsentView : Swift.Decodable {
+  public let id: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class TrustedForm {
+  public static let `default`: TrustedForm
+  final public func configure(appId: Swift.String, accessToken: Swift.String)
+  final public func createCertificate(consentText: Swift.String, completion: @escaping (Swift.Result<Certificate, Swift.Error>) -> Swift.Void)
+  final public func addScreenshot(to certificate: Certificate) throws
+  final public func startTracking(for certificate: Certificate)
+  final public func stopTracking(for certificate: Certificate)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class TrustedFormView : UIKit.UIView {
+  weak final public var delegate: TrustedFormViewDelegate?
+  final public var isSubmitEnabled: Swift.Bool {
+    get
+    set
+  }
+  final public var isCheckboxOn: Swift.Bool {
+    get
+  }
+  final public var isCheckboxRequired: Swift.Bool {
+    get
+    set
+  }
+  final public var consentBackgroundColor: UIKit.UIColor {
+    get
+    set
+  }
+  final public var consentTextColor: UIKit.UIColor {
+    get
+    set
+  }
+  final public var submitButtonColor: UIKit.UIColor {
+    get
+    set
+  }
+  final public var submitButtonDisabledColor: UIKit.UIColor {
+    get
+    set
+  }
+  final public var submitButtonTitleColor: UIKit.UIColor {
+    get
+    set
+  }
+  final public var consentBorderColor: UIKit.UIColor? {
+    get
+    set
+  }
+  final public var submitButtonTitle: Swift.String? {
+    get
+    set
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  @objc override final public func awakeFromNib()
+  @objc override final public func layoutSubviews()
+  @objc override final public var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+  @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+extension TrustedFormView {
+  final public func initialize(with certificate: Certificate)
+}
+extension UIView {
+  public var isSensitive: Swift.Bool {
+    get
+    set
+  }
+}
+extension Consent.ConsentType : Swift.Equatable {}
+extension Consent.ConsentType : Swift.Hashable {}
+extension Consent.ConsentType : Swift.RawRepresentable {}
