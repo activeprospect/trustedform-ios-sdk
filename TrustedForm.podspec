@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TrustedForm'
-  s.version          = '0.2.5'
+  s.version          = '0.3.0'
   s.summary          = 'TrustedForm is THE platform for consent-based marketing.'
 
 #  s.description      = <<-DESC
