@@ -44,6 +44,15 @@ public struct ConsentView : Swift.Decodable {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class TrustedFormView : UIKit.UIView {
+  public enum ConsentPosition {
+    case top
+    case bottom
+    public static func == (a: TrustedFormView.ConsentPosition, b: TrustedFormView.ConsentPosition) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
   weak final public var delegate: TrustedFormViewDelegate?
   final public var isSubmitEnabled: Swift.Bool {
     get
@@ -84,6 +93,30 @@ public struct ConsentView : Swift.Decodable {
     get
     set
   }
+  final public var submitButtonFont: UIKit.UIFont {
+    get
+    set
+  }
+  final public var submitButtonCornerRadius: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  final public var submitButtonHeight: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  final public var consentTextFont: UIKit.UIFont {
+    get
+    set
+  }
+  final public var isConsentBorderVisible: Swift.Bool {
+    get
+    set
+  }
+  final public var consentTextPosition: TrustedFormView.ConsentPosition {
+    get
+    set
+  }
   @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -106,3 +139,5 @@ extension UIView {
 extension Consent.ConsentType : Swift.Equatable {}
 extension Consent.ConsentType : Swift.Hashable {}
 extension Consent.ConsentType : Swift.RawRepresentable {}
+extension TrustedFormView.ConsentPosition : Swift.Equatable {}
+extension TrustedFormView.ConsentPosition : Swift.Hashable {}
