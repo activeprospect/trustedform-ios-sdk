@@ -6,6 +6,6 @@ framework module TrustedForm {
 }
 
 module TrustedForm.Swift {
-    header "TrustedForm-Swift.h"
-    requires objc
+  header "TrustedForm-Swift.h"
+  requires objc
 }

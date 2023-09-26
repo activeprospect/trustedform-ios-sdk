@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		jJCqgWLw5dsD6B8SaZqR6G4ljF0=
+		P+pjRbxrTQ54BMEsN1ttYXprcP8=
 		</data>
 		<key>Headers/TrustedForm-Swift.h</key>
 		<data>
-		1ZFc9dZh2bOfjqa3gYEARMBU2us=
+		wtikcbYvE40FQf/v5AtTWrbnatU=
 		</data>
 		<key>Headers/TrustedForm-umbrella.h</key>
 		<data>
@@ -18,67 +18,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Etw9cJri2kz1dwWpkxHoBGWwkqc=
+		LWIHBi+DgNjHaLLkOxxA8ZH4Sp0=
+		</data>
+		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		J9QvB76xqEK6SI+JpOcYIFTU/FQ=
+		</data>
+		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		w0+PeFKnnwffsyVUTas+I+dDueo=
 		</data>
 		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NmWBWKpz/TXUhV4Hr2LD46E5eYE=
+		xW561BEcFo65GjMS8E7aHefPnqM=
 		</data>
 		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s/ZvoTKUyrG9KxGjektJD+PN2to=
+		w0+PeFKnnwffsyVUTas+I+dDueo=
 		</data>
 		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1KRrOBwZPruaK2WF56e2AVCuYlY=
+		ShCtTNwCfRH9hID8HeNq4vXGHPU=
 		</data>
-		<key>Modules/TrustedForm.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NmWBWKpz/TXUhV4Hr2LD46E5eYE=
+		J9QvB76xqEK6SI+JpOcYIFTU/FQ=
 		</data>
-		<key>Modules/TrustedForm.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		s/ZvoTKUyrG9KxGjektJD+PN2to=
-		</data>
-		<key>Modules/TrustedForm.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		1KRrOBwZPruaK2WF56e2AVCuYlY=
+		HbJBt7wdNQn/z+J2rFg3Brt/7V8=
 		</data>
 		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Cd5Qim5DXOHHKd2HtJzNxWutwIg=
+		u8BmzOeVcDsFk8dPfOvmxCdTLc8=
 		</data>
 		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oKJAoHS5YT/QAE1aZOtZ2z3ojoA=
+		HbJBt7wdNQn/z+J2rFg3Brt/7V8=
 		</data>
 		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0fmWR5l27XNaEuomMp1fJ4jH/1g=
-		</data>
-		<key>Modules/TrustedForm.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		Cd5Qim5DXOHHKd2HtJzNxWutwIg=
-		</data>
-		<key>Modules/TrustedForm.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		oKJAoHS5YT/QAE1aZOtZ2z3ojoA=
-		</data>
-		<key>Modules/TrustedForm.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		0fmWR5l27XNaEuomMp1fJ4jH/1g=
+		+2AJBripokCQtYPs8AmB2aLhQUE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		PY+bSTxcg/VUL0lBB4GGN7cPr/g=
+		lNp87K8P6345+Rqth2ILQ8KgfGg=
 		</data>
 		<key>TrustedFormView.nib/objects-13.0+.nib</key>
 		<data>
-		+WEY+jckt99VCo+w48zDBugvWvk=
+		5xeO26TTHbXn47jSeEoAHd9yPGY=
 		</data>
 		<key>TrustedFormView.nib/runtime.nib</key>
 		<data>
-		vg8JYyDSGwbiqlod4bu2wOBNCF8=
+		Ixb+gSU29izuylBHuJ2kcCTUphI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -87,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TXmbjzcSr2zhsn8jX/7E9wyf5SbYREGotg2pq9qqgaM=
+			35AJGj+ZtiwNaGNPl4gJn68FYhqzTMTuIR9qOHuJxAI=
 			</data>
 		</dict>
 		<key>Headers/TrustedForm-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3VyEBonFS8R0weuLe2p/ndZ6/iCem/tyXN68yn41EjU=
+			jTwiCf/POaItKJ7xdTFpi4EWzkcFL6/sB5sSJbUCfkQ=
 			</data>
 		</dict>
 		<key>Headers/TrustedForm-umbrella.h</key>
@@ -104,109 +96,95 @@
 			wRp0ryTPEa+K0ifTgMDXemmOJ9aFr4PqZhTumZTCE4I=
 			</data>
 		</dict>
+		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			p/pbwkuEx/gRYVFx2tqWbDnZnf80HkuuF+iESJv3QZc=
+			</data>
+		</dict>
+		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DqDUsrdz8uO8LOd/067DNO7nBV+r3eyZPERYIefJ23I=
+			</data>
+		</dict>
 		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjMb7l708D272JTYBBABX+67fKjZ+lZT03N8dhu0cAw=
+			KsegF17o9k5sMqu04JzA79pvTsZPCeAAJVe351ssFkE=
 			</data>
 		</dict>
 		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qo45yvPv6zZBJ0L4xsMOCf/1nQZATDtrbNJbgingB0k=
+			DqDUsrdz8uO8LOd/067DNO7nBV+r3eyZPERYIefJ23I=
 			</data>
 		</dict>
 		<key>Modules/TrustedForm.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ByfI0YBO6+KUFYS67vtlB6tcTVr6yUu+RqyyROsnuwc=
+			3IZukgronX/Drpvf6ySONq7MwDboAmsseMnGSgp5SPQ=
 			</data>
 		</dict>
-		<key>Modules/TrustedForm.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjMb7l708D272JTYBBABX+67fKjZ+lZT03N8dhu0cAw=
+			p/pbwkuEx/gRYVFx2tqWbDnZnf80HkuuF+iESJv3QZc=
 			</data>
 		</dict>
-		<key>Modules/TrustedForm.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qo45yvPv6zZBJ0L4xsMOCf/1nQZATDtrbNJbgingB0k=
-			</data>
-		</dict>
-		<key>Modules/TrustedForm.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ByfI0YBO6+KUFYS67vtlB6tcTVr6yUu+RqyyROsnuwc=
+			S5dZtWedIoUJBhJNaGe79HMpIckQc+ljWoDpCMUSPdc=
 			</data>
 		</dict>
 		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENN2t0jj3s3pMK8Itog94VMy0BTdHg7L1TIPB5+ergM=
+			sLTHT0+RDxBC+Z4nN0fDSResi7rnaIBT7wudSN7GBkk=
 			</data>
 		</dict>
 		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WE/Gn7SVq7ur5lr0eEi4gq40zcDFVf4o5/4pYTLWGwY=
+			S5dZtWedIoUJBhJNaGe79HMpIckQc+ljWoDpCMUSPdc=
 			</data>
 		</dict>
 		<key>Modules/TrustedForm.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hfgzmNcv2LbNoDVp77lubx3jn+InYpzHtUrOyQ181/E=
-			</data>
-		</dict>
-		<key>Modules/TrustedForm.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ENN2t0jj3s3pMK8Itog94VMy0BTdHg7L1TIPB5+ergM=
-			</data>
-		</dict>
-		<key>Modules/TrustedForm.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WE/Gn7SVq7ur5lr0eEi4gq40zcDFVf4o5/4pYTLWGwY=
-			</data>
-		</dict>
-		<key>Modules/TrustedForm.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hfgzmNcv2LbNoDVp77lubx3jn+InYpzHtUrOyQ181/E=
+			4Y1AdDAXA7KT5AiteC9thNHFoobqgjfwc15TLyKzukU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P8mTxsjm1CJQ55gcY/bNlNvWBVRI9F6td0XKH4r+M5A=
+			mad2NfUD8KoX/U3cXidcVHkh2XZ2qaRf/bOjELHuCfM=
 			</data>
 		</dict>
 		<key>TrustedFormView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			En1KeLoqu9rwQ/BbTZWVu1nPO2Kk0qPvJjseB+rJksU=
+			XaAAmwZDFvwzuO8EQOYks21BpCzxsAgF3iHM5THtniY=
 			</data>
 		</dict>
 		<key>TrustedFormView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fof5KvqdS0OtQJBG+usxUZTVZi2Y9btrkmNl5ut+XLc=
+			+K4eFLLdifrDZvidlCQZwO9WvgdSO6mV5lTlz6cBY6k=
 			</data>
 		</dict>
 	</dict>
