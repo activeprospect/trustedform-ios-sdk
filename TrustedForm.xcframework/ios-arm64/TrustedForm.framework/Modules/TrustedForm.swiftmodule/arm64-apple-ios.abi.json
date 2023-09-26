@@ -1,0 +1,5123 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Certificate",
+        "printedName": "Certificate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm11CertificateV2idSSvp",
+            "mangledName": "$s11TrustedForm11CertificateV2idSSvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm11CertificateV2idSSvg",
+                "mangledName": "$s11TrustedForm11CertificateV2idSSvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "consentText",
+            "printedName": "consentText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm11CertificateV11consentTextSSvp",
+            "mangledName": "$s11TrustedForm11CertificateV11consentTextSSvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm11CertificateV11consentTextSSvg",
+                "mangledName": "$s11TrustedForm11CertificateV11consentTextSSvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Certificate",
+                "printedName": "TrustedForm.Certificate",
+                "usr": "s:11TrustedForm11CertificateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TrustedForm11CertificateV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11TrustedForm11CertificateV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TrustedForm",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TrustedForm11CertificateV",
+        "mangledName": "$s11TrustedForm11CertificateV",
+        "moduleName": "TrustedForm",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Consent",
+        "printedName": "Consent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm7ConsentV2idSSvp",
+            "mangledName": "$s11TrustedForm7ConsentV2idSSvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm7ConsentV2idSSvg",
+                "mangledName": "$s11TrustedForm7ConsentV2idSSvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ConsentType",
+            "printedName": "ConsentType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "tcpa",
+                "printedName": "tcpa",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrustedForm.Consent.ConsentType.Type) -> TrustedForm.Consent.ConsentType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentType",
+                        "printedName": "TrustedForm.Consent.ConsentType",
+                        "usr": "s:11TrustedForm7ConsentV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TrustedForm.Consent.ConsentType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentType",
+                            "printedName": "TrustedForm.Consent.ConsentType",
+                            "usr": "s:11TrustedForm7ConsentV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11TrustedForm7ConsentV0C4TypeO4tcpayA2EmF",
+                "mangledName": "$s11TrustedForm7ConsentV0C4TypeO4tcpayA2EmF",
+                "moduleName": "TrustedForm"
+              },
+              {
+                "kind": "Var",
+                "name": "ccpa",
+                "printedName": "ccpa",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrustedForm.Consent.ConsentType.Type) -> TrustedForm.Consent.ConsentType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentType",
+                        "printedName": "TrustedForm.Consent.ConsentType",
+                        "usr": "s:11TrustedForm7ConsentV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TrustedForm.Consent.ConsentType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentType",
+                            "printedName": "TrustedForm.Consent.ConsentType",
+                            "usr": "s:11TrustedForm7ConsentV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11TrustedForm7ConsentV0C4TypeO4ccpayA2EmF",
+                "mangledName": "$s11TrustedForm7ConsentV0C4TypeO4ccpayA2EmF",
+                "moduleName": "TrustedForm"
+              },
+              {
+                "kind": "Var",
+                "name": "patriotAct",
+                "printedName": "patriotAct",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrustedForm.Consent.ConsentType.Type) -> TrustedForm.Consent.ConsentType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentType",
+                        "printedName": "TrustedForm.Consent.ConsentType",
+                        "usr": "s:11TrustedForm7ConsentV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TrustedForm.Consent.ConsentType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentType",
+                            "printedName": "TrustedForm.Consent.ConsentType",
+                            "usr": "s:11TrustedForm7ConsentV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11TrustedForm7ConsentV0C4TypeO10patriotActyA2EmF",
+                "mangledName": "$s11TrustedForm7ConsentV0C4TypeO10patriotActyA2EmF",
+                "moduleName": "TrustedForm"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrustedForm.Consent.ConsentType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentType",
+                        "printedName": "TrustedForm.Consent.ConsentType",
+                        "usr": "s:11TrustedForm7ConsentV0C4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11TrustedForm7ConsentV0C4TypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11TrustedForm7ConsentV0C4TypeO8rawValueAESgSS_tcfc",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11TrustedForm7ConsentV0C4TypeO8rawValueSSvp",
+                "mangledName": "$s11TrustedForm7ConsentV0C4TypeO8rawValueSSvp",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11TrustedForm7ConsentV0C4TypeO8rawValueSSvg",
+                    "mangledName": "$s11TrustedForm7ConsentV0C4TypeO8rawValueSSvg",
+                    "moduleName": "TrustedForm",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11TrustedForm7ConsentV0C4TypeO",
+            "mangledName": "$s11TrustedForm7ConsentV0C4TypeO",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Consent",
+                "printedName": "TrustedForm.Consent",
+                "usr": "s:11TrustedForm7ConsentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TrustedForm7ConsentV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11TrustedForm7ConsentV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TrustedForm",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TrustedForm7ConsentV",
+        "mangledName": "$s11TrustedForm7ConsentV",
+        "moduleName": "TrustedForm",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentView",
+        "printedName": "ConsentView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm11ConsentViewV2idSSvp",
+            "mangledName": "$s11TrustedForm11ConsentViewV2idSSvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm11ConsentViewV2idSSvg",
+                "mangledName": "$s11TrustedForm11ConsentViewV2idSSvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentView",
+                "printedName": "TrustedForm.ConsentView",
+                "usr": "s:11TrustedForm11ConsentViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TrustedForm11ConsentViewV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11TrustedForm11ConsentViewV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TrustedForm",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TrustedForm11ConsentViewV",
+        "mangledName": "$s11TrustedForm11ConsentViewV",
+        "moduleName": "TrustedForm",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrustedForm",
+        "printedName": "TrustedForm",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrustedForm",
+                "printedName": "TrustedForm.TrustedForm",
+                "usr": "s:11TrustedFormAAC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedFormAAC7defaultABvpZ",
+            "mangledName": "$s11TrustedFormAAC7defaultABvpZ",
+            "moduleName": "TrustedForm",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrustedForm",
+                    "printedName": "TrustedForm.TrustedForm",
+                    "usr": "s:11TrustedFormAAC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedFormAAC7defaultABvgZ",
+                "mangledName": "$s11TrustedFormAAC7defaultABvgZ",
+                "moduleName": "TrustedForm",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(appId:accessToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrustedFormAAC9configure5appId11accessTokenySS_SStF",
+            "mangledName": "$s11TrustedFormAAC9configure5appId11accessTokenySS_SStF",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createCertificate",
+            "printedName": "createCertificate(consentText:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<TrustedForm.Certificate, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<TrustedForm.Certificate, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Certificate",
+                        "printedName": "TrustedForm.Certificate",
+                        "usr": "s:11TrustedForm11CertificateV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrustedFormAAC17createCertificate11consentText10completionySS_ys6ResultOyAA0D0Vs5Error_pGctF",
+            "mangledName": "$s11TrustedFormAAC17createCertificate11consentText10completionySS_ys6ResultOyAA0D0Vs5Error_pGctF",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addScreenshot",
+            "printedName": "addScreenshot(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Certificate",
+                "printedName": "TrustedForm.Certificate",
+                "usr": "s:11TrustedForm11CertificateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrustedFormAAC13addScreenshot2toyAA11CertificateV_tKF",
+            "mangledName": "$s11TrustedFormAAC13addScreenshot2toyAA11CertificateV_tKF",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startTracking",
+            "printedName": "startTracking(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Certificate",
+                "printedName": "TrustedForm.Certificate",
+                "usr": "s:11TrustedForm11CertificateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrustedFormAAC13startTracking3foryAA11CertificateV_tF",
+            "mangledName": "$s11TrustedFormAAC13startTracking3foryAA11CertificateV_tF",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopTracking",
+            "printedName": "stopTracking(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Certificate",
+                "printedName": "TrustedForm.Certificate",
+                "usr": "s:11TrustedForm11CertificateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrustedFormAAC12stopTracking3foryAA11CertificateV_tF",
+            "mangledName": "$s11TrustedFormAAC12stopTracking3foryAA11CertificateV_tF",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11TrustedFormAAC",
+        "mangledName": "$s11TrustedFormAAC",
+        "moduleName": "TrustedForm",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrustedFormView",
+        "printedName": "TrustedFormView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ConsentPosition",
+            "printedName": "ConsentPosition",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "top",
+                "printedName": "top",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrustedForm.TrustedFormView.ConsentPosition.Type) -> TrustedForm.TrustedFormView.ConsentPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentPosition",
+                        "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                        "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TrustedForm.TrustedFormView.ConsentPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentPosition",
+                            "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                            "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO3topyA2EmF",
+                "mangledName": "$s11TrustedForm0aB4ViewC15ConsentPositionO3topyA2EmF",
+                "moduleName": "TrustedForm"
+              },
+              {
+                "kind": "Var",
+                "name": "bottom",
+                "printedName": "bottom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrustedForm.TrustedFormView.ConsentPosition.Type) -> TrustedForm.TrustedFormView.ConsentPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentPosition",
+                        "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                        "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TrustedForm.TrustedFormView.ConsentPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentPosition",
+                            "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                            "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO6bottomyA2EmF",
+                "mangledName": "$s11TrustedForm0aB4ViewC15ConsentPositionO6bottomyA2EmF",
+                "moduleName": "TrustedForm"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentPosition",
+                    "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                    "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentPosition",
+                    "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                    "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s11TrustedForm0aB4ViewC15ConsentPositionO2eeoiySbAE_AEtFZ",
+                "moduleName": "TrustedForm",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO9hashValueSivp",
+                "mangledName": "$s11TrustedForm0aB4ViewC15ConsentPositionO9hashValueSivp",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO9hashValueSivg",
+                    "mangledName": "$s11TrustedForm0aB4ViewC15ConsentPositionO9hashValueSivg",
+                    "moduleName": "TrustedForm",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s11TrustedForm0aB4ViewC15ConsentPositionO4hash4intoys6HasherVz_tF",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO",
+            "mangledName": "$s11TrustedForm0aB4ViewC15ConsentPositionO",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "TrustedForm.TrustedFormViewDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrustedForm.TrustedFormViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrustedFormViewDelegate",
+                        "printedName": "TrustedForm.TrustedFormViewDelegate",
+                        "usr": "c:@M@TrustedForm@objc(pl)TrustedFormViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrustedForm.TrustedFormViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrustedFormViewDelegate",
+                        "printedName": "TrustedForm.TrustedFormViewDelegate",
+                        "usr": "c:@M@TrustedForm@objc(pl)TrustedFormViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC8delegateAA0abC8Delegate_pSgvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSubmitEnabled",
+            "printedName": "isSubmitEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC15isSubmitEnabledSbvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC15isSubmitEnabledSbvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC15isSubmitEnabledSbvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC15isSubmitEnabledSbvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC15isSubmitEnabledSbvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC15isSubmitEnabledSbvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC15isSubmitEnabledSbvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC15isSubmitEnabledSbvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCheckboxOn",
+            "printedName": "isCheckboxOn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC12isCheckboxOnSbvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC12isCheckboxOnSbvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC12isCheckboxOnSbvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC12isCheckboxOnSbvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCheckboxRequired",
+            "printedName": "isCheckboxRequired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC18isCheckboxRequiredSbvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC18isCheckboxRequiredSbvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18isCheckboxRequiredSbvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC18isCheckboxRequiredSbvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18isCheckboxRequiredSbvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC18isCheckboxRequiredSbvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18isCheckboxRequiredSbvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC18isCheckboxRequiredSbvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "consentBackgroundColor",
+            "printedName": "consentBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC22consentBackgroundColorSo7UIColorCvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "consentTextColor",
+            "printedName": "consentTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC16consentTextColorSo7UIColorCvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonColor",
+            "printedName": "submitButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonColorSo7UIColorCvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonDisabledColor",
+            "printedName": "submitButtonDisabledColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC25submitButtonDisabledColorSo7UIColorCvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonTitleColor",
+            "printedName": "submitButtonTitleColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC22submitButtonTitleColorSo7UIColorCvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "consentBorderColor",
+            "printedName": "consentBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC18consentBorderColorSo7UIColorCSgvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonTitle",
+            "printedName": "submitButtonTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC17submitButtonTitleSSSgvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonTitleSSSgvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC17submitButtonTitleSSSgvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonTitleSSSgvg",
+                "moduleName": "TrustedForm",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC17submitButtonTitleSSSgvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonTitleSSSgvs",
+                "moduleName": "TrustedForm",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC17submitButtonTitleSSSgvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC17submitButtonTitleSSSgvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonFont",
+            "printedName": "submitButtonFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC16submitButtonFontSo6UIFontCvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonCornerRadius",
+            "printedName": "submitButtonCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC24submitButtonCornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC24submitButtonCornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC24submitButtonCornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC24submitButtonCornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC24submitButtonCornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC24submitButtonCornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC24submitButtonCornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC24submitButtonCornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonHeight",
+            "printedName": "submitButtonHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC18submitButtonHeight14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC18submitButtonHeight12CoreGraphics7CGFloatVvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18submitButtonHeight14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC18submitButtonHeight12CoreGraphics7CGFloatVvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18submitButtonHeight14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC18submitButtonHeight12CoreGraphics7CGFloatVvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC18submitButtonHeight14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC18submitButtonHeight12CoreGraphics7CGFloatVvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "consentTextFont",
+            "printedName": "consentTextFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC15consentTextFontSo6UIFontCvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isConsentBorderVisible",
+            "printedName": "isConsentBorderVisible",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvp",
+            "mangledName": "$s11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvg",
+                "mangledName": "$s11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvs",
+                "mangledName": "$s11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC22isConsentBorderVisibleSbvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "consentTextPosition",
+            "printedName": "consentTextPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentPosition",
+                "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0Ovp",
+            "mangledName": "$s11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0Ovp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentPosition",
+                    "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                    "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0Ovg",
+                "mangledName": "$s11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0Ovg",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentPosition",
+                    "printedName": "TrustedForm.TrustedFormView.ConsentPosition",
+                    "usr": "s:11TrustedForm0aB4ViewC15ConsentPositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0Ovs",
+                "mangledName": "$s11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0Ovs",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0OvM",
+                "mangledName": "$s11TrustedForm0aB4ViewC19consentTextPositionAC07ConsentF0OvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrustedFormView",
+                "printedName": "TrustedForm.TrustedFormView",
+                "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView(im)initWithFrame:",
+            "mangledName": "$s11TrustedForm0aB4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "TrustedForm",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrustedForm.TrustedFormView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrustedFormView",
+                    "printedName": "TrustedForm.TrustedFormView",
+                    "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView(im)initWithCoder:",
+            "mangledName": "$s11TrustedForm0aB4ViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TrustedForm",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView(im)awakeFromNib",
+            "mangledName": "$s11TrustedForm0aB4ViewC12awakeFromNibyyF",
+            "moduleName": "TrustedForm",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView(im)layoutSubviews",
+            "mangledName": "$s11TrustedForm0aB4ViewC14layoutSubviewsyyF",
+            "moduleName": "TrustedForm",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView(py)intrinsicContentSize",
+            "mangledName": "$s11TrustedForm0aB4ViewC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "TrustedForm",
+            "overriding": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView(im)intrinsicContentSize",
+                "mangledName": "$s11TrustedForm0aB4ViewC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "TrustedForm",
+                "overriding": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s11TrustedForm0aB4ViewC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtF",
+            "moduleName": "TrustedForm",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Certificate",
+                "printedName": "TrustedForm.Certificate",
+                "usr": "s:11TrustedForm11CertificateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrustedForm0aB4ViewC10initialize4withyAA11CertificateV_tF",
+            "mangledName": "$s11TrustedForm0aB4ViewC10initialize4withyAA11CertificateV_tF",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView",
+        "mangledName": "$s11TrustedForm0aB4ViewC",
+        "moduleName": "TrustedForm",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrustedFormViewDelegate",
+        "printedName": "TrustedFormViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "submitTapped",
+            "printedName": "submitTapped(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrustedFormView",
+                "printedName": "TrustedForm.TrustedFormView",
+                "usr": "c:@M@TrustedForm@objc(cs)TrustedFormView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrustedForm@objc(pl)TrustedFormViewDelegate(im)submitTappedIn:",
+            "mangledName": "$s11TrustedForm0aB12ViewDelegateP12submitTapped2inyAA0abC0C_tF",
+            "moduleName": "TrustedForm",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrustedForm.TrustedFormViewDelegate>",
+            "sugared_genericSig": "<Self where Self : TrustedForm.TrustedFormViewDelegate>",
+            "protocolReq": true,
+            "objc_name": "submitTappedIn:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@TrustedForm@objc(pl)TrustedFormViewDelegate",
+        "mangledName": "$s11TrustedForm0aB12ViewDelegateP",
+        "moduleName": "TrustedForm",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "TrustedForm"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isSensitive",
+            "printedName": "isSensitive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So6UIViewC11TrustedFormE11isSensitiveSbvp",
+            "mangledName": "$sSo6UIViewC11TrustedFormE11isSensitiveSbvp",
+            "moduleName": "TrustedForm",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So6UIViewC11TrustedFormE11isSensitiveSbvg",
+                "mangledName": "$sSo6UIViewC11TrustedFormE11isSensitiveSbvg",
+                "moduleName": "TrustedForm",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So6UIViewC11TrustedFormE11isSensitiveSbvs",
+                "mangledName": "$sSo6UIViewC11TrustedFormE11isSensitiveSbvs",
+                "moduleName": "TrustedForm",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So6UIViewC11TrustedFormE11isSensitiveSbvM",
+                "mangledName": "$sSo6UIViewC11TrustedFormE11isSensitiveSbvM",
+                "moduleName": "TrustedForm",
+                "implicit": true,
+                "intro_iOS": "2.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Certificate.swift",
+      "kind": "StringLiteral",
+      "offset": 135,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Certificate.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 9,
+      "value": "\"cert_id\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Certificate.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 9,
+      "value": "\"cert_id\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "BooleanLiteral",
+      "offset": 782,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 6,
+      "value": "\"time\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 10,
+      "value": "\"metadata\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 9,
+      "value": "\"verbose\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 93,
+      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1679,
+      "length": 36,
+      "value": "\"https:\/\/api.ipify.org\/?format=json\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 21,
+      "value": "\"CFBundleDisplayName\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 2708,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 2810,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 2894,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 2937,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 3200,
+      "length": 15,
+      "value": "\"\/mobile\/certs\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4633,
+      "length": 93,
+      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4909,
+      "length": 9,
+      "value": "\"consent\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4980,
+      "length": 32,
+      "value": "\"\/mobile\/certs\/\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5004,
+      "length": 1,
+      "value": "\"\/opt_in\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5478,
+      "length": 93,
+      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5789,
+      "length": 33,
+      "value": "\"\/mobile\/certs\/\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5813,
+      "length": 1,
+      "value": "\"\/opt_out\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6288,
+      "length": 93,
+      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6599,
+      "length": 31,
+      "value": "\"mobile\/certs\/\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6622,
+      "length": 1,
+      "value": "\"\/submit\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 7139,
+      "length": 93,
+      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 7448,
+      "length": 36,
+      "value": "\"mobile\/certs\/\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 7471,
+      "length": 1,
+      "value": "\"\/screenshots\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 8770,
+      "length": 93,
+      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 9187,
+      "length": 31,
+      "value": "\"mobile\/certs\/\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 9210,
+      "length": 1,
+      "value": "\"\/events\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 9895,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9956,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 9987,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 10086,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 10157,
+      "length": 44,
+      "value": "\"Request: %{public}@ %{public}d\n%{public}@\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Consent.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 6,
+      "value": "\"TCPA\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Consent.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 6,
+      "value": "\"CCPA\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Consent.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 13,
+      "value": "\"Patriot Act\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Consent.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 6,
+      "value": "\"TCPA\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Consent.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 6,
+      "value": "\"CCPA\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Consent.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 13,
+      "value": "\"Patriot Act\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Respositories\/Rest\/ConsentsRestRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 11,
+      "value": "\"\/consents\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Config\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 75,
+      "length": 29,
+      "value": "\"https:\/\/api.trustedform.com\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/DateExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 144,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/DateExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 261,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/EventOperationExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 373,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/EventOperationExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 403,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/FilesHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 196,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Services\/LoggingService.swift",
+      "kind": "StringLiteral",
+      "offset": 132,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Services\/LoggingService.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 13,
+      "value": "\"TrustedForm\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 48,
+      "length": 5,
+      "value": "\"en0\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 74,
+      "length": 9,
+      "value": "\"pdp_ip0\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1059,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1301,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 48,
+      "length": 5,
+      "value": "\"en0\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 74,
+      "length": 9,
+      "value": "\"pdp_ip0\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 584,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 665,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1653,
+      "length": 32,
+      "value": "\"Operation consumed: %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1835,
+      "length": 30,
+      "value": "\"Operation failed: %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationModel.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationModel.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 41,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationModel.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/OperationModel.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/OptInExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/OptInExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 495,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/OptOutExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 440,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/OptOutExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/ScreenshotBucket.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 15,
+      "value": "\"s3_upload_url\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/ScreenshotBucket.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 15,
+      "value": "\"s3_upload_url\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/ScreenshotExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 564,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/ScreenshotExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/ScreenshotExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1028,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/ScreenshotService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 852,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/ScreenshotService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1680,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/ScreenshotService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1921,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/SubmitExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 440,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/Executors\/SubmitExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 761,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 1755,
+      "length": 33,
+      "value": "\"Certificate created: %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 29,
+      "value": "\"Operation added: screenshot\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 3132,
+      "length": 24,
+      "value": "\"Operation added: optIn\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 3702,
+      "length": 25,
+      "value": "\"Operation added: optOut\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 4225,
+      "length": 25,
+      "value": "\"Operation added: submit\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 4761,
+      "length": 29,
+      "value": "\"Operation added: %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 4792,
+      "length": 22,
+      "value": "\"event(\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 4812,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 5557,
+      "length": 37,
+      "value": "\"startTracking: no view for tracking\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5979,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6125,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 6704,
+      "length": 44,
+      "value": "\"attachEventsHandlers: no view for tracking\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 11996,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 13071,
+      "length": 29,
+      "value": "\"Operation added: screenshot\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 13663,
+      "length": 38,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 13700,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/TrustedForm.swift",
+      "kind": "StringLiteral",
+      "offset": 13917,
+      "length": 30,
+      "value": "\"Screenshot saved: %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 29,
+      "value": "\"trustedFormConsentTextColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 35,
+      "value": "\"trustedFormConsentBackgroundColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 35,
+      "value": "\"trustedFormSubmitButtonTitleColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 30,
+      "value": "\"trustedFormSubmitButtonColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 38,
+      "value": "\"trustedFormSubmitButtonDisabledColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 26,
+      "value": "\"trustedFormCheckboxColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1068,
+      "length": 4,
+      "value": "14.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1155,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1215,
+      "length": 4,
+      "value": "52.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1276,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1339,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1421,
+      "length": 4,
+      "value": "11.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1484,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1552,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1685,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1981,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 2061,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 2075,
+      "length": 17,
+      "value": "\"TrustedFormView\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3458,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3584,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3704,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4686,
+      "length": 12,
+      "value": "0.8745098039"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4707,
+      "length": 12,
+      "value": "0.8941176471"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4727,
+      "length": 12,
+      "value": "0.9098039216"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4748,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6496,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 7179,
+      "length": 17,
+      "value": "\"TrustedFormView\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7226,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 7669,
+      "length": 8,
+      "value": "\"Submit\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7936,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8388,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8455,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8459,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8593,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8722,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8929,
+      "length": 2,
+      "value": "87"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 9207,
+      "length": 14,
+      "value": "\"tf-checkmark\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 9844,
+      "length": 56,
+      "value": "\"TrustedFormView wasn't initialized with a certificate.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 10387,
+      "length": 42,
+      "value": "\"checkboxActiveProspectTrustedFormConsent\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 10828,
+      "length": 56,
+      "value": "\"TrustedFormView wasn't initialized with a certificate.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 12119,
+      "length": 15,
+      "value": "\"contentOffset\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 12532,
+      "length": 15,
+      "value": "\"contentOffset\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13828,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14534,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14970,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15473,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16233,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16775,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16823,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16874,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17583,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17650,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17720,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17792,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17857,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17929,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18017,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18083,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18152,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18225,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18291,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18362,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 18755,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 18774,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18877,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18908,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18938,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19092,
+      "length": 7,
+      "value": "0.03928"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19130,
+      "length": 5,
+      "value": "12.92"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19172,
+      "length": 5,
+      "value": "0.055"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19181,
+      "length": 5,
+      "value": "1.055"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19188,
+      "length": 3,
+      "value": "2.4"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19325,
+      "length": 6,
+      "value": "0.2126"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19342,
+      "length": 6,
+      "value": "0.7152"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19361,
+      "length": 6,
+      "value": "0.0722"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 19558,
+      "length": 61,
+      "value": "\"TrustedFormView was already initialized with a certificate.\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 19734,
+      "length": 37,
+      "value": "\"Certificate initialized: %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "FloatLiteral",
+      "offset": 20186,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20212,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 7,
+      "value": "\"focus\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 5,
+      "value": "\"tap\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 15,
+      "value": "\"input_changed\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 586,
+      "length": 17,
+      "value": "\"consent_visible\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 16,
+      "value": "\"consent_hidden\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "Dictionary",
+      "offset": 1426,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "Dictionary",
+      "offset": 1542,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1641,
+      "length": 12,
+      "value": "\"element_id\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 18,
+      "value": "\"consent_language\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1641,
+      "length": 12,
+      "value": "\"element_id\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 18,
+      "value": "\"consent_language\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/UIView+isSensitive.swift",
+      "kind": "BooleanLiteral",
+      "offset": 95,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Models\/UIView+isSensitive.swift",
+      "kind": "BooleanLiteral",
+      "offset": 241,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 546,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 102,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 4,
+      "value": "\"> \""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 1,
+      "value": "\"] \""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Extensions\/UIViewExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/UserDefaults+OperationsQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 40,
+      "value": "\"OperationsQueue deserialization failed\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/TrustedForm\/Operations\/UserDefaults+OperationsQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 38,
+      "value": "\"OperationsQueue serialization failed\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 26,
+      "value": "\"trustedFormCheckboxColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 848,
+      "length": 35,
+      "value": "\"trustedFormConsentBackgroundColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1042,
+      "length": 29,
+      "value": "\"trustedFormConsentTextColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1232,
+      "length": 30,
+      "value": "\"trustedFormSubmitButtonColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 38,
+      "value": "\"trustedFormSubmitButtonDisabledColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 35,
+      "value": "\"trustedFormSubmitButtonTitleColor\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
+      "length": 14,
+      "value": "\"tf-checkmark\""
+    },
+    {
+      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-dxwdfyuzeclofddkwhfmbyihxxfj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedForm\/IntermediateBuildFilesPath\/Pods.build\/Release-iphoneos\/TrustedForm.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 12,
+      "value": "\"tf-dismiss\""
+    }
+  ]
+}

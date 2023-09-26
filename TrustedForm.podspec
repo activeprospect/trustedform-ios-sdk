@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TrustedForm'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'TrustedForm is THE platform for consent-based marketing.'
 
 #  s.description      = <<-DESC
@@ -11,9 +11,10 @@ Pod::Spec.new do |s|
   s.author           = { 'ActiveProspect' => 'support@activeprospect.com' }
   s.platform         = :ios
   s.source           = { :git => 'https://github.com/activeprospect/trustedform-ios-sdk.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '11.0'
-  s.dependency 'Alamofire', '~> 5.4'
+  s.ios.deployment_target = '12.0'
+  s.dependency 'Alamofire', '~> 5.8'
   s.ios.vendored_frameworks = "TrustedForm.xcframework"
+  
   
   # https://github.com/CocoaPods/CocoaPods/issues/10104#issuecomment-700918704
   # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
