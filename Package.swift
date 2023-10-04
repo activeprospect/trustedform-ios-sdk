@@ -28,7 +28,7 @@ let package = Package(
                 .product(name: "Alamofire", package: "Alamofire"),
                 .target(name: "TrustedFormSwift", condition: .when(platforms: [.iOS]))
             ],
-            path: "TrustedFormPackage"
+            path: "TrustedFormPackage/Sources"
         ),
         .binaryTarget(
             name: "TrustedFormSwift",
