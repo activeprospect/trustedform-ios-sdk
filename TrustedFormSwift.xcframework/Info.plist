@@ -8,7 +8,21 @@
 			<key>BinaryPath</key>
 			<string>TrustedFormSwift.framework/TrustedFormSwift</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
+			<string>ios-arm64</string>
+			<key>LibraryPath</key>
+			<string>TrustedFormSwift.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>TrustedFormSwift.framework/Versions/A/TrustedFormSwift</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64_x86_64-maccatalyst</string>
 			<key>LibraryPath</key>
 			<string>TrustedFormSwift.framework</string>
 			<key>SupportedArchitectures</key>
@@ -19,21 +33,7 @@
 			<key>SupportedPlatform</key>
 			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>TrustedFormSwift.framework/TrustedFormSwift</string>
-			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
-			<key>LibraryPath</key>
-			<string>TrustedFormSwift.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
+			<string>maccatalyst</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>
