@@ -13,6 +13,18 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+@available(iOS 13.0, *)
+public struct TrustedFormSwiftUIView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: TrustedFormSwift.TrustedFormSwiftUIView.Context) -> TrustedFormSwift.TrustedFormView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: TrustedFormSwift.TrustedFormView, context: TrustedFormSwift.TrustedFormSwiftUIView.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> TrustedFormSwift.TrustedFormSwiftUIView.Coordinator
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, TrustedFormSwift.TrustedFormViewDelegate {
+    @objc public func submitTapped(in formView: TrustedFormSwift.TrustedFormView)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = TrustedFormSwift.TrustedFormView
+}
 public struct ConsentView : Swift.Decodable {
   public let id: Swift.String
   public init(from decoder: any Swift.Decoder) throws
