@@ -47,462 +47,18 @@
         "moduleName": "TrustedFormSwift"
       },
       {
-        "kind": "TypeDecl",
-        "name": "TrustedFormCustomization",
-        "printedName": "TrustedFormCustomization",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(consentBackgroundColor:consentTextColor:submitButtonColor:submitButtonDisabledColor:submitButtonTitle:consentTextFont:submitButtonFont:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TrustedFormCustomization",
-                "printedName": "TrustedFormSwift.TrustedFormCustomization",
-                "usr": "s:16TrustedFormSwift0aB13CustomizationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)UIFont"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16TrustedFormSwift0aB13CustomizationV22consentBackgroundColor0e4TextG0012submitButtonG00ij8DisabledG00iJ5Title0eH4Font0ijM0ACSo7UIColorC_A3LSSSo6UIFontCANtcfc",
-            "mangledName": "$s16TrustedFormSwift0aB13CustomizationV22consentBackgroundColor0e4TextG0012submitButtonG00ij8DisabledG00iJ5Title0eH4Font0ijM0ACSo7UIColorC_A3LSSSo6UIFontCANtcfc",
-            "moduleName": "TrustedFormSwift",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:16TrustedFormSwift0aB13CustomizationV",
-        "mangledName": "$s16TrustedFormSwift0aB13CustomizationV",
-        "moduleName": "TrustedFormSwift",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrustedFormSwift"
       },
       {
-        "kind": "TypeDecl",
-        "name": "TrustedFormSwiftUIView",
-        "printedName": "TrustedFormSwiftUIView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(certificate:customization:onSubmit:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TrustedFormSwiftUIView",
-                "printedName": "TrustedFormSwift.TrustedFormSwiftUIView",
-                "usr": "s:16TrustedFormSwift0abC6UIViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Binding",
-                "printedName": "SwiftUI.Binding<TrustedFormSwift.Certificate?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TrustedFormSwift.Certificate?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Certificate",
-                        "printedName": "TrustedFormSwift.Certificate",
-                        "usr": "s:16TrustedFormSwift11CertificateV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:7SwiftUI7BindingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TrustedFormCustomization",
-                "printedName": "TrustedFormSwift.TrustedFormCustomization",
-                "hasDefaultArg": true,
-                "usr": "s:16TrustedFormSwift0aB13CustomizationV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV11certificate13customization8onSubmitAC0C2UI7BindingVyAA11CertificateVSgG_AA0aB13CustomizationVyyctcfc",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11certificate13customization8onSubmitAC0C2UI7BindingVyAA11CertificateVSgG_AA0aB13CustomizationVyyctcfc",
-            "moduleName": "TrustedFormSwift",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "makeUIView",
-            "printedName": "makeUIView(context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TrustedFormView",
-                "printedName": "TrustedFormSwift.TrustedFormView",
-                "usr": "c:@M@TrustedFormSwift@objc(cs)TrustedFormView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewRepresentableContext",
-                "printedName": "SwiftUI.UIViewRepresentableContext<TrustedFormSwift.TrustedFormSwiftUIView>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TrustedFormSwiftUIView",
-                    "printedName": "TrustedFormSwift.TrustedFormSwiftUIView",
-                    "usr": "s:16TrustedFormSwift0abC6UIViewV"
-                  }
-                ],
-                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV04makeD07contextAA0aB4ViewC0C2UI0D20RepresentableContextVyACG_tF",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV04makeD07contextAA0aB4ViewC0C2UI0D20RepresentableContextVyACG_tF",
-            "moduleName": "TrustedFormSwift",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateUIView",
-            "printedName": "updateUIView(_:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TrustedFormView",
-                "printedName": "TrustedFormSwift.TrustedFormView",
-                "usr": "c:@M@TrustedFormSwift@objc(cs)TrustedFormView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewRepresentableContext",
-                "printedName": "SwiftUI.UIViewRepresentableContext<TrustedFormSwift.TrustedFormSwiftUIView>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TrustedFormSwiftUIView",
-                    "printedName": "TrustedFormSwift.TrustedFormSwiftUIView",
-                    "usr": "s:16TrustedFormSwift0abC6UIViewV"
-                  }
-                ],
-                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV06updateD0_7contextyAA0aB4ViewC_0C2UI0D20RepresentableContextVyACGtF",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV06updateD0_7contextyAA0aB4ViewC_0C2UI0D20RepresentableContextVyACGtF",
-            "moduleName": "TrustedFormSwift",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "makeCoordinator",
-            "printedName": "makeCoordinator()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Coordinator",
-                "printedName": "TrustedFormSwift.TrustedFormSwiftUIView.Coordinator",
-                "usr": "s:16TrustedFormSwift0abC6UIViewV11CoordinatorC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV15makeCoordinatorAC0F0CyF",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV15makeCoordinatorAC0F0CyF",
-            "moduleName": "TrustedFormSwift",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Coordinator",
-            "printedName": "Coordinator",
-            "children": [
-              {
-                "kind": "Function",
-                "name": "submitTapped",
-                "printedName": "submitTapped(in:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TrustedFormView",
-                    "printedName": "TrustedFormSwift.TrustedFormView",
-                    "usr": "c:@M@TrustedFormSwift@objc(cs)TrustedFormView"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:16TrustedFormSwift0abC6UIViewV11CoordinatorC12submitTapped2inyAA0aB4ViewC_tF",
-                "mangledName": "$s16TrustedFormSwift0abC6UIViewV11CoordinatorC12submitTapped2inyAA0aB4ViewC_tF",
-                "moduleName": "TrustedFormSwift",
-                "objc_name": "submitTappedIn:",
-                "declAttributes": [
-                  "ObjC",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "TrustedFormSwift.TrustedFormSwiftUIView.Coordinator",
-                    "usr": "s:16TrustedFormSwift0abC6UIViewV11CoordinatorC"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:16TrustedFormSwift0abC6UIViewV11CoordinatorCAEycfc",
-                "mangledName": "$s16TrustedFormSwift0abC6UIViewV11CoordinatorCAEycfc",
-                "moduleName": "TrustedFormSwift",
-                "overriding": true,
-                "implicit": true,
-                "objc_name": "init",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
-                  "Override"
-                ],
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Class",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV11CoordinatorC",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11CoordinatorC",
-            "moduleName": "TrustedFormSwift",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "superclassUsr": "c:objc(cs)NSObject",
-            "hasMissingDesignatedInitializers": true,
-            "superclassNames": [
-              "ObjectiveC.NSObject"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "TrustedFormViewDelegate",
-                "printedName": "TrustedFormViewDelegate",
-                "usr": "c:@M@TrustedFormSwift@objc(pl)TrustedFormViewDelegate",
-                "mangledName": "$s16TrustedFormSwift0aB12ViewDelegateP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "_KeyValueCodingAndObservingPublishing",
-                "printedName": "_KeyValueCodingAndObservingPublishing",
-                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CustomStringConvertible",
-                "printedName": "CustomStringConvertible",
-                "usr": "s:s23CustomStringConvertibleP",
-                "mangledName": "$ss23CustomStringConvertibleP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:16TrustedFormSwift0abC6UIViewV",
-        "mangledName": "$s16TrustedFormSwift0abC6UIViewV",
-        "moduleName": "TrustedFormSwift",
-        "intro_iOS": "13.0",
-        "declAttributes": [
-          "AccessControl",
-          "Available"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "UIViewRepresentable",
-            "printedName": "UIViewRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UIViewType",
-                "printedName": "UIViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TrustedFormView",
-                    "printedName": "TrustedFormSwift.TrustedFormView",
-                    "usr": "c:@M@TrustedFormSwift@objc(cs)TrustedFormView"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Coordinator",
-                "printedName": "Coordinator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "TrustedFormSwift.TrustedFormSwiftUIView.Coordinator",
-                    "usr": "s:16TrustedFormSwift0abC6UIViewV11CoordinatorC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI19UIViewRepresentableP",
-            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrustedFormSwift"
       },
       {
         "kind": "Import",
@@ -1290,8 +846,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1437,8 +993,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1922,8 +1478,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4193,29 +3749,22 @@
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
-      "kind": "StringLiteral",
-      "offset": 612,
-      "length": 8,
-      "value": "\"Submit\""
+      "kind": "BooleanLiteral",
+      "offset": 535,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 674,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 732,
-      "length": 2,
-      "value": "16"
+      "kind": "BooleanLiteral",
+      "offset": 572,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "StringLiteral",
-      "offset": 2727,
+      "offset": 992,
       "length": 11,
       "value": "\"TrustedFormSwift.Coordinator\""
     },
