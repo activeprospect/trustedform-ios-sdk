@@ -65,13 +65,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Binding",
-                "printedName": "SwiftUI.Binding<TrustedFormSwift.Certificate>",
+                "printedName": "SwiftUI.Binding<TrustedFormSwift.Certificate?>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Certificate",
-                    "printedName": "TrustedFormSwift.Certificate",
-                    "usr": "s:16TrustedFormSwift11CertificateV"
+                    "name": "Optional",
+                    "printedName": "TrustedFormSwift.Certificate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Certificate",
+                        "printedName": "TrustedFormSwift.Certificate",
+                        "usr": "s:16TrustedFormSwift11CertificateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "usr": "s:7SwiftUI7BindingV"
@@ -229,8 +237,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAC0C2UI7BindingVyAA11CertificateVG_yycSo7UIColorCSgA4XSSSgSo6UIFontCSgA0_S2btcfc",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAC0C2UI7BindingVyAA11CertificateVG_yycSo7UIColorCSgA4XSSSgSo6UIFontCSgA0_S2btcfc",
+            "usr": "s:16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAC0C2UI7BindingVyAA11CertificateVSgG_yycSo7UIColorCSgA4YSSSgSo6UIFontCSgA1_S2btcfc",
+            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAC0C2UI7BindingVyAA11CertificateVSgG_yycSo7UIColorCSgA4YSSSgSo6UIFontCSgA1_S2btcfc",
             "moduleName": "TrustedFormSwift",
             "declAttributes": [
               "AccessControl",
@@ -4268,35 +4276,35 @@
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 522,
+      "offset": 523,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 559,
+      "offset": 560,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1169,
+      "offset": 1171,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1215,
+      "offset": 1217,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "StringLiteral",
-      "offset": 2389,
+      "offset": 2448,
       "length": 11,
       "value": "\"TrustedFormSwift.Coordinator\""
     },
