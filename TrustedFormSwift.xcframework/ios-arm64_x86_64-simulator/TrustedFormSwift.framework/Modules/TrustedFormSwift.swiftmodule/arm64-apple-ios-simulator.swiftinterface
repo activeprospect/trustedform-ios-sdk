@@ -15,10 +15,12 @@ import os.log
 import os
 @available(iOS 13.0, *)
 public struct TrustedFormSwiftUIView : SwiftUI.UIViewRepresentable {
+  public init(certificate: TrustedFormSwift.Certificate, onFormSubmit: @escaping () -> Swift.Void, consentBackgroundColor: UIKit.UIColor? = nil, consentTextColor: UIKit.UIColor? = nil, submitButtonColor: UIKit.UIColor? = nil, submitButtonDisabledColor: UIKit.UIColor? = nil, submitButtonTitleColor: UIKit.UIColor? = nil, submitButtonTitle: Swift.String? = nil, submitButtonFont: UIKit.UIFont? = nil, consentTextFont: UIKit.UIFont? = nil, isCheckboxRequired: Swift.Bool = true, isSubmitEnabled: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) public func makeUIView(context: TrustedFormSwift.TrustedFormSwiftUIView.Context) -> TrustedFormSwift.TrustedFormView
   @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: TrustedFormSwift.TrustedFormView, context: TrustedFormSwift.TrustedFormSwiftUIView.Context)
   @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> TrustedFormSwift.TrustedFormSwiftUIView.Coordinator
-  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, TrustedFormSwift.TrustedFormViewDelegate {
+  @objc public class Coordinator : ObjectiveC.NSObject, TrustedFormSwift.TrustedFormViewDelegate {
+    public init(onSubmit: @escaping () -> Swift.Void)
     @objc public func submitTapped(in formView: TrustedFormSwift.TrustedFormView)
     @objc deinit
   }
