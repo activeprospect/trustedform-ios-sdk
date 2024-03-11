@@ -64,9 +64,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Certificate",
-                "printedName": "TrustedFormSwift.Certificate",
-                "usr": "s:16TrustedFormSwift11CertificateV"
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<TrustedFormSwift.Certificate>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Certificate",
+                    "printedName": "TrustedFormSwift.Certificate",
+                    "usr": "s:16TrustedFormSwift11CertificateV"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
               },
               {
                 "kind": "TypeFunc",
@@ -221,8 +229,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAcA11CertificateV_yycSo7UIColorCSgA4TSSSgSo6UIFontCSgAXS2btcfc",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAcA11CertificateV_yycSo7UIColorCSgA4TSSSgSo6UIFontCSgAXS2btcfc",
+            "usr": "s:16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAC0C2UI7BindingVyAA11CertificateVG_yycSo7UIColorCSgA4XSSSgSo6UIFontCSgA0_S2btcfc",
+            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit22consentBackgroundColor0h4TextJ0012submitButtonJ00lm8DisabledJ00lm5TitleJ00lmO00lM4Font0hkP018isCheckboxRequired0qG7EnabledAC0C2UI7BindingVyAA11CertificateVG_yycSo7UIColorCSgA4XSSSgSo6UIFontCSgA0_S2btcfc",
             "moduleName": "TrustedFormSwift",
             "declAttributes": [
               "AccessControl",
@@ -4260,35 +4268,35 @@
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 513,
+      "offset": 522,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 550,
+      "offset": 559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1151,
+      "offset": 1169,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1197,
+      "offset": 1215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "StringLiteral",
-      "offset": 2370,
+      "offset": 2389,
       "length": 11,
       "value": "\"TrustedFormSwift.Coordinator\""
     },
