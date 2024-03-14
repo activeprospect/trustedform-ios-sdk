@@ -315,6 +315,7 @@ SWIFT_CLASS("_TtC16TrustedFormSwift15TrustedFormView")
 
 
 
+
 SWIFT_PROTOCOL("_TtP16TrustedFormSwift23TrustedFormViewDelegate_")
 @protocol TrustedFormViewDelegate
 @optional
@@ -652,6 +653,7 @@ SWIFT_CLASS("_TtC16TrustedFormSwift15TrustedFormView")
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
+
 
 
 
