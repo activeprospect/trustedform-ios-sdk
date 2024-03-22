@@ -1,4 +1,0 @@
-framework module TrustedFormSwift {
-  header "TrustedFormSwift-Swift.h"
-  requires objc
-}
