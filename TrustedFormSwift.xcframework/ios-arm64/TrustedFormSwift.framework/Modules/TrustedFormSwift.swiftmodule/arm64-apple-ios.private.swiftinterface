@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrustedFormSwift
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrustedFormSwift
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
 import DeveloperToolsSupport
@@ -13,6 +13,37 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+public struct TrustedFormSwiftUIView : SwiftUI.UIViewRepresentable {
+  public var customizations: TrustedFormSwift.TrustedFormViewCustomizations
+  public init(certificate: TrustedFormSwift.Certificate, onFormSubmit: @escaping () -> Swift.Void, customizations: TrustedFormSwift.TrustedFormViewCustomizations)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: TrustedFormSwift.TrustedFormSwiftUIView.Context) -> TrustedFormSwift.TrustedFormView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: TrustedFormSwift.TrustedFormView, context: TrustedFormSwift.TrustedFormSwiftUIView.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> TrustedFormSwift.TrustedFormSwiftUIView.Coordinator
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, TrustedFormSwift.TrustedFormViewDelegate {
+    @objc public func submitTapped(in formView: TrustedFormSwift.TrustedFormView)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = TrustedFormSwift.TrustedFormView
+}
+public struct TrustedFormViewCustomizations {
+  public var consentBackgroundColor: UIKit.UIColor?
+  public var consentTextColor: UIKit.UIColor?
+  public var consentBorderColor: UIKit.UIColor?
+  public var submitButtonColor: UIKit.UIColor?
+  public var submitButtonDisabledColor: UIKit.UIColor?
+  public var submitButtonTitleColor: UIKit.UIColor?
+  public var submitButtonTitle: Swift.String?
+  public var submitButtonFont: UIKit.UIFont?
+  public var submitButtonCornerRadius: CoreFoundation.CGFloat?
+  public var submitButtonHeight: CoreFoundation.CGFloat?
+  public var consentTextFont: UIKit.UIFont?
+  public var isConsentBorderVisible: Swift.Bool
+  public var consentTextPosition: TrustedFormSwift.TrustedFormView.ConsentPosition?
+  public var isCheckboxRequired: Swift.Bool
+  public var isSubmitEnabled: Swift.Bool
+  public init(consentBackgroundColor: UIKit.UIColor? = nil, consentTextColor: UIKit.UIColor? = nil, consentBorderColor: UIKit.UIColor? = nil, submitButtonColor: UIKit.UIColor? = nil, submitButtonDisabledColor: UIKit.UIColor? = nil, submitButtonTitleColor: UIKit.UIColor? = nil, submitButtonTitle: Swift.String? = nil, submitButtonFont: UIKit.UIFont? = nil, submitButtonCornerRadius: CoreFoundation.CGFloat? = nil, submitButtonHeight: CoreFoundation.CGFloat? = nil, consentTextFont: UIKit.UIFont? = nil, isConsentBorderVisible: Swift.Bool = true, consentTextPosition: TrustedFormSwift.TrustedFormView.ConsentPosition? = nil, isCheckboxRequired: Swift.Bool = true, isSubmitEnabled: Swift.Bool = true)
+}
 public struct ConsentView : Swift.Decodable {
   public let id: Swift.String
   public init(from decoder: any Swift.Decoder) throws

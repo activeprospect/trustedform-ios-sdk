@@ -315,6 +315,7 @@ SWIFT_CLASS("_TtC16TrustedFormSwift15TrustedFormView")
 
 
 
+
 SWIFT_PROTOCOL("_TtP16TrustedFormSwift23TrustedFormViewDelegate_")
 @protocol TrustedFormViewDelegate
 @optional
