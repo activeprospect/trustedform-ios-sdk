@@ -34,8 +34,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "TrustedFormSwift",
         "declAttributes": [
@@ -44,8 +44,8 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "TrustedFormSwift",
+        "printedName": "TrustedFormSwift",
         "declKind": "Import",
         "moduleName": "TrustedFormSwift"
       },
@@ -79,7 +79,8 @@
             "moduleName": "TrustedFormSwift",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -149,7 +150,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(certificate:onFormSubmit:customizations:)",
+            "printedName": "init(certificate:onFormSubmit:customizations:isHidden:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -185,14 +186,30 @@
                 "name": "TrustedFormViewCustomizations",
                 "printedName": "TrustedFormSwift.TrustedFormViewCustomizations",
                 "usr": "s:16TrustedFormSwift0aB18ViewCustomizationsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI7BindingV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit14customizationsAcA11CertificateV_yycAA0aB18ViewCustomizationsVtcfc",
-            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit14customizationsAcA11CertificateV_yycAA0aB18ViewCustomizationsVtcfc",
+            "usr": "s:16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit14customizations8isHiddenAcA11CertificateV_yycAA0aB18ViewCustomizationsV0C2UI7BindingVySbGtcfc",
+            "mangledName": "$s16TrustedFormSwift0abC6UIViewV11certificate02onB6Submit14customizations8isHiddenAcA11CertificateV_yycAA0aB18ViewCustomizationsV0C2UI7BindingVySbGtcfc",
             "moduleName": "TrustedFormSwift",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -2302,7 +2319,8 @@
             "mangledName": "$s16TrustedFormSwift0aB18ViewCustomizationsV22consentBackgroundColor0f4TextH00f6BorderH0012submitButtonH00kl8DisabledH00kl5TitleH00klN00kL4Font0kL12CornerRadius0kL6Height0fiO009isConsentJ7Visible0fI8Position0S16CheckboxRequired0S13SubmitEnabledACSo7UIColorCSg_A5USSSgSo6UIFontCSg12CoreGraphics7CGFloatVSgA1_AYSbAA0abD0C0tV0OSgS2btcfc",
             "moduleName": "TrustedFormSwift",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -5956,50 +5974,57 @@
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1353,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "StringLiteral",
-      "offset": 2353,
+      "offset": 3132,
       "length": 11,
       "value": "\"TrustedFormSwift.Coordinator\""
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3457,
+      "offset": 4469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3573,
+      "offset": 4585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3617,
+      "offset": 4629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4172,
+      "offset": 6350,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4282,
+      "offset": 6460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elsonmathew\/Library\/Mobile Documents\/com~apple~CloudDocs\/The Byte Quill\/ActiveProspect\/Trusted Form\/iOS\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4320,
+      "offset": 6498,
       "length": 4,
       "value": "true"
     },
@@ -6375,56 +6400,56 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 651,
       "length": 26,
       "value": "\"trustedFormCheckboxColor\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 848,
       "length": 35,
       "value": "\"trustedFormConsentBackgroundColor\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 29,
       "value": "\"trustedFormConsentTextColor\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1232,
       "length": 30,
       "value": "\"trustedFormSubmitButtonColor\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1439,
       "length": 38,
       "value": "\"trustedFormSubmitButtonDisabledColor\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1648,
       "length": 35,
       "value": "\"trustedFormSubmitButtonTitleColor\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 14,
       "value": "\"tf-checkmark\""
     },
     {
-      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/elsonmathew\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-gosdbybigrzunrbqwzfbbqwzrwjv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphonesimulator\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2064,
       "length": 12,

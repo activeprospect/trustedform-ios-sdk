@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrustedFormSwift
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrustedFormSwift
 import Alamofire
 import DeveloperToolsSupport
 import Foundation
@@ -14,7 +14,7 @@ import os.log
 import os
 public struct TrustedFormSwiftUIView : SwiftUI.UIViewRepresentable {
   public var customizations: TrustedFormSwift.TrustedFormViewCustomizations
-  public init(certificate: TrustedFormSwift.Certificate, onFormSubmit: @escaping () -> Swift.Void, customizations: TrustedFormSwift.TrustedFormViewCustomizations)
+  public init(certificate: TrustedFormSwift.Certificate, onFormSubmit: @escaping () -> Swift.Void, customizations: TrustedFormSwift.TrustedFormViewCustomizations, isHidden: SwiftUI.Binding<Swift.Bool> = .constant(false))
   @_Concurrency.MainActor(unsafe) public func makeUIView(context: TrustedFormSwift.TrustedFormSwiftUIView.Context) -> TrustedFormSwift.TrustedFormView
   @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: TrustedFormSwift.TrustedFormView, context: TrustedFormSwift.TrustedFormSwiftUIView.Context)
   @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> TrustedFormSwift.TrustedFormSwiftUIView.Coordinator
