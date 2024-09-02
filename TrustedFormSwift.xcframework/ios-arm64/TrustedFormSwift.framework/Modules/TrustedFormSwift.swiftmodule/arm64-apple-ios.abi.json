@@ -34,6 +34,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrustedFormSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrustedFormSwift"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -179,7 +196,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -401,7 +418,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -693,7 +710,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "TrustedFormSwift.TrustedFormViewDelegate?"
+                "printedName": "(any TrustedFormSwift.TrustedFormViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -701,10 +718,10 @@
             "mangledName": "$s16TrustedFormSwift0aB4ViewC8delegateAA0abD8Delegate_pSgvp",
             "moduleName": "TrustedFormSwift",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -719,12 +736,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "TrustedFormSwift.TrustedFormViewDelegate?",
+                    "printedName": "(any TrustedFormSwift.TrustedFormViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TrustedFormViewDelegate",
-                        "printedName": "TrustedFormSwift.TrustedFormViewDelegate",
+                        "printedName": "any TrustedFormSwift.TrustedFormViewDelegate",
                         "usr": "c:@M@TrustedFormSwift@objc(pl)TrustedFormViewDelegate"
                       }
                     ],
@@ -754,12 +771,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "TrustedFormSwift.TrustedFormViewDelegate?",
+                    "printedName": "(any TrustedFormSwift.TrustedFormViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TrustedFormViewDelegate",
-                        "printedName": "TrustedFormSwift.TrustedFormViewDelegate",
+                        "printedName": "any TrustedFormSwift.TrustedFormViewDelegate",
                         "usr": "c:@M@TrustedFormSwift@objc(pl)TrustedFormViewDelegate"
                       }
                     ],
@@ -818,8 +835,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -915,8 +932,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "SetterAccess",
               "AccessControl"
             ],
@@ -965,8 +982,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1062,8 +1079,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1159,8 +1176,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1256,8 +1273,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1353,8 +1370,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1450,8 +1467,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1555,8 +1572,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1674,8 +1691,8 @@
             "mangledName": "$s16TrustedFormSwift0aB4ViewC17submitButtonTitleSSSgvp",
             "moduleName": "TrustedFormSwift",
             "declAttributes": [
-              "Custom",
               "Final",
+              "Custom",
               "AccessControl"
             ],
             "accessors": [
@@ -1784,8 +1801,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1881,8 +1898,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1978,8 +1995,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2075,8 +2092,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2172,8 +2189,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2269,8 +2286,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3129,7 +3146,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3185,6 +3202,28 @@
         "name": "TrustedForm",
         "printedName": "TrustedForm",
         "children": [
+          {
+            "kind": "Function",
+            "name": "enableVerboseLogging",
+            "printedName": "enableVerboseLogging()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TrustedFormSwift0aB0C20enableVerboseLoggingyyFZ",
+            "mangledName": "$s16TrustedFormSwift0aB0C20enableVerboseLoggingyyFZ",
+            "moduleName": "TrustedFormSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Var",
             "name": "default",
@@ -3288,7 +3327,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<TrustedFormSwift.Certificate, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<TrustedFormSwift.Certificate, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3298,7 +3337,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<TrustedFormSwift.Certificate, Swift.Error>",
+                    "printedName": "Swift.Result<TrustedFormSwift.Certificate, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3309,7 +3348,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3636,1547 +3675,546 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 410,
-      "length": 7,
-      "value": "\"focus\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 456,
-      "length": 5,
-      "value": "\"tap\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 509,
-      "length": 15,
-      "value": "\"input_changed\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 586,
-      "length": 17,
-      "value": "\"consent_visible\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 663,
-      "length": 16,
-      "value": "\"consent_hidden\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
-      "kind": "Dictionary",
-      "offset": 1426,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
-      "kind": "Dictionary",
-      "offset": 1542,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1641,
       "length": 12,
       "value": "\"element_id\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 18,
       "value": "\"consent_language\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1641,
       "length": 12,
       "value": "\"element_id\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Request\/UIInteractionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 18,
       "value": "\"consent_language\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Config\/Constants.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 75,
       "length": 29,
       "value": "\"https:\/\/api.trustedform.com\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/ScreenshotExecutor.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 564,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/ScreenshotExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 594,
+      "offset": 1322,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/ScreenshotExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1028,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 584,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 665,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationManager.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "StringLiteral",
-      "offset": 1653,
-      "length": 32,
-      "value": "\"Operation consumed: %{public}@\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1835,
-      "length": 30,
-      "value": "\"Operation failed: %{public}@\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/OptInExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 465,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/OptInExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 495,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/ConsentsRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 3101,
       "length": 11,
-      "value": "\"\/consents\""
+      "value": "\"TrustedFormSwift.Coordinator\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/FilesHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 214,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/DateExtensions.swift",
-      "kind": "FloatLiteral",
-      "offset": 144,
-      "length": 6,
-      "value": "1000.0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/DateExtensions.swift",
-      "kind": "FloatLiteral",
-      "offset": 261,
-      "length": 6,
-      "value": "1000.0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/OptOutExecutor.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 440,
+      "offset": 4431,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/OptOutExecutor.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 470,
-      "length": 5,
-      "value": "false"
+      "offset": 4547,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/UserDefaults+OperationsQueue.swift",
-      "kind": "StringLiteral",
-      "offset": 568,
-      "length": 40,
-      "value": "\"OperationsQueue deserialization failed\""
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4591,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/UserDefaults+OperationsQueue.swift",
-      "kind": "StringLiteral",
-      "offset": 933,
-      "length": 38,
-      "value": "\"OperationsQueue serialization failed\""
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6312,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/UIView+isSensitive.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6422,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6460,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/UIView+isSensitive.swift",
       "kind": "BooleanLiteral",
       "offset": 95,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/UIView+isSensitive.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Services\/LoggingService.swift",
       "kind": "BooleanLiteral",
-      "offset": 241,
+      "offset": 101,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/SubmitExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 440,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/SubmitExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 470,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/EventOperationExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 373,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/Executors\/EventOperationExecutor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 403,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Services\/LoggingService.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Services\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 151,
+      "offset": 202,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Services\/LoggingService.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Services\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 165,
+      "offset": 216,
       "length": 13,
       "value": "\"TrustedForm\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Certificate.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Services\/LoggingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1095,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Certificate.swift",
       "kind": "StringLiteral",
       "offset": 135,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Certificate.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Certificate.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 9,
       "value": "\"cert_id\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Certificate.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Certificate.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 9,
       "value": "\"cert_id\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/ScreenshotService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 852,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/ScreenshotService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1680,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/ScreenshotService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1921,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationModel.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationModel.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 41,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationModel.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 1,
-      "value": "\"(\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Operations\/OperationModel.swift",
-      "kind": "StringLiteral",
-      "offset": 512,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
       "kind": "BooleanLiteral",
       "offset": 812,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
       "kind": "StringLiteral",
       "offset": 887,
       "length": 6,
       "value": "\"time\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
       "kind": "StringLiteral",
       "offset": 936,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
       "kind": "StringLiteral",
       "offset": 985,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
       "kind": "StringLiteral",
       "offset": 1021,
       "length": 9,
       "value": "\"verbose\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
       "kind": "StringLiteral",
       "offset": 1091,
       "length": 93,
       "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1709,
-      "length": 36,
-      "value": "\"https:\/\/api.ipify.org\/?format=json\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2293,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2451,
-      "length": 21,
-      "value": "\"CFBundleDisplayName\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2742,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2844,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2928,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2971,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 3234,
-      "length": 15,
-      "value": "\"\/mobile\/certs\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 4667,
-      "length": 93,
-      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 4943,
-      "length": 9,
-      "value": "\"consent\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 5014,
-      "length": 32,
-      "value": "\"\/mobile\/certs\/\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 5038,
-      "length": 1,
-      "value": "\"\/opt_in\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 5512,
-      "length": 93,
-      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 5823,
-      "length": 33,
-      "value": "\"\/mobile\/certs\/\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 5847,
-      "length": 1,
-      "value": "\"\/opt_out\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 6322,
-      "length": 93,
-      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 6633,
-      "length": 31,
-      "value": "\"mobile\/certs\/\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 6656,
-      "length": 1,
-      "value": "\"\/submit\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 7173,
-      "length": 93,
-      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 7482,
-      "length": 36,
-      "value": "\"mobile\/certs\/\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 7505,
-      "length": 1,
-      "value": "\"\/screenshots\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 8804,
-      "length": 93,
-      "value": "\"TrustedForm was not configured properly. Use TrustedForm.configure() to initialize the SDK.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 9221,
-      "length": 31,
-      "value": "\"mobile\/certs\/\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 9244,
-      "length": 1,
-      "value": "\"\/events\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 9929,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9990,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 10021,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 10120,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Respositories\/Rest\/CertificateRestRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 10191,
-      "length": 44,
-      "value": "\"Request: %{public}@ %{public}d\n%{public}@\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 29,
       "value": "\"trustedFormConsentTextColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 35,
       "value": "\"trustedFormConsentBackgroundColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 531,
       "length": 35,
       "value": "\"trustedFormSubmitButtonTitleColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 30,
       "value": "\"trustedFormSubmitButtonColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 798,
       "length": 38,
       "value": "\"trustedFormSubmitButtonDisabledColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 935,
       "length": 26,
       "value": "\"trustedFormCheckboxColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
       "offset": 1068,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
       "offset": 1155,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
       "offset": 1215,
       "length": 4,
       "value": "52.0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
       "offset": 1276,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
       "offset": 1339,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
       "offset": 1421,
       "length": 4,
       "value": "11.0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
       "offset": 1484,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "IntegerLiteral",
       "offset": 1552,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "IntegerLiteral",
       "offset": 1618,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "IntegerLiteral",
       "offset": 1685,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "BooleanLiteral",
       "offset": 1872,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "IntegerLiteral",
       "offset": 1981,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 2061,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "StringLiteral",
       "offset": 2075,
       "length": 17,
       "value": "\"TrustedFormView\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "BooleanLiteral",
       "offset": 3458,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 3662,
+      "length": 42,
+      "value": "\"Checkbox status change. isOn: %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3753,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "BooleanLiteral",
       "offset": 3584,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3704,
+      "offset": 3854,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
-      "offset": 4686,
+      "offset": 4836,
       "length": 12,
       "value": "0.8745098039"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
-      "offset": 4707,
+      "offset": 4857,
       "length": 12,
       "value": "0.8941176471"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "FloatLiteral",
-      "offset": 4727,
+      "offset": 4877,
       "length": 12,
       "value": "0.9098039216"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4748,
+      "offset": 4898,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6496,
+      "offset": 6646,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 7185,
-      "length": 17,
-      "value": "\"TrustedFormView\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7232,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 7675,
-      "length": 8,
-      "value": "\"Submit\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7942,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8394,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8461,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8465,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8599,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8728,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8935,
-      "length": 2,
-      "value": "87"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 9213,
-      "length": 14,
-      "value": "\"tf-checkmark\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 9856,
-      "length": 56,
-      "value": "\"TrustedFormView wasn't initialized with a certificate.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 10399,
-      "length": 42,
-      "value": "\"checkboxActiveProspectTrustedFormConsent\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 10840,
-      "length": 56,
-      "value": "\"TrustedFormView wasn't initialized with a certificate.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 12131,
-      "length": 15,
-      "value": "\"contentOffset\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 12544,
-      "length": 15,
-      "value": "\"contentOffset\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13735,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13840,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14546,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14686,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14982,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15485,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16245,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16682,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16734,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16787,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16835,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16886,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17595,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17662,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17732,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17804,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17869,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17941,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18029,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18095,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18164,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18237,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18303,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18374,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 18767,
-      "length": 4,
-      "value": "0.05"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 18786,
-      "length": 4,
-      "value": "0.05"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18889,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18920,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18950,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19104,
-      "length": 7,
-      "value": "0.03928"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19142,
-      "length": 5,
-      "value": "12.92"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19184,
-      "length": 5,
-      "value": "0.055"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19193,
-      "length": 5,
-      "value": "1.055"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19200,
-      "length": 3,
-      "value": "2.4"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19337,
-      "length": 6,
-      "value": "0.2126"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19354,
-      "length": 6,
-      "value": "0.7152"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 19373,
-      "length": 6,
-      "value": "0.0722"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 19570,
-      "length": 61,
-      "value": "\"TrustedFormView was already initialized with a certificate.\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "StringLiteral",
-      "offset": 19746,
-      "length": 37,
-      "value": "\"Certificate initialized: %{public}@\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "FloatLiteral",
-      "offset": 20198,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/View\/TrustedFormView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20224,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/ScreenshotBucket.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/ScreenshotBucket.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 15,
       "value": "\"s3_upload_url\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/ScreenshotBucket.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/ScreenshotBucket.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 15,
       "value": "\"s3_upload_url\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 186,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 312,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 559,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 102,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 695,
-      "length": 4,
-      "value": "\"> \""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 705,
-      "length": 1,
-      "value": "\"[\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 714,
-      "length": 1,
-      "value": "\"] \""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 727,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 748,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 753,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 757,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Extensions\/UIViewExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 768,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 6,
       "value": "\"TCPA\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 6,
       "value": "\"CCPA\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 13,
       "value": "\"Patriot Act\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 6,
       "value": "\"TCPA\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 6,
       "value": "\"CCPA\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 13,
       "value": "\"Patriot Act\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
       "kind": "StringLiteral",
       "offset": 67,
       "length": 5,
       "value": "\"en0\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 9,
       "value": "\"pdp_ip0\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
-      "kind": "IntegerLiteral",
-      "offset": 366,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1078,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1320,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
       "kind": "StringLiteral",
       "offset": 67,
       "length": 5,
       "value": "\"en0\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/Helpers\/NetworkInterface.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 9,
       "value": "\"pdp_ip0\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
+      "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/TrustedForm.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 868,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 1757,
-      "length": 33,
-      "value": "\"Certificate created: %{public}@\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 2530,
-      "length": 29,
-      "value": "\"Operation added: screenshot\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 3136,
-      "length": 24,
-      "value": "\"Operation added: optIn\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 3710,
-      "length": 25,
-      "value": "\"Operation added: optOut\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 4234,
-      "length": 25,
-      "value": "\"Operation added: submit\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 4770,
-      "length": 29,
-      "value": "\"Operation added: %{public}@\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 4801,
-      "length": 22,
-      "value": "\"event(\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 4821,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 5574,
-      "length": 37,
-      "value": "\"startTracking: no view for tracking\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5996,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6142,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 6729,
-      "length": 44,
-      "value": "\"attachEventsHandlers: no view for tracking\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 12003,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 13078,
-      "length": 29,
-      "value": "\"Operation added: screenshot\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 13670,
-      "length": 38,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 13707,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/dev\/ap\/trustedform-ios\/Project\/TrustedForm\/TrustedForm\/TrustedForm.swift",
-      "kind": "StringLiteral",
-      "offset": 13924,
-      "length": 30,
-      "value": "\"Screenshot saved: %{public}@\""
-    },
-    {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 651,
       "length": 26,
       "value": "\"trustedFormCheckboxColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 848,
       "length": 35,
       "value": "\"trustedFormConsentBackgroundColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 29,
       "value": "\"trustedFormConsentTextColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1232,
       "length": 30,
       "value": "\"trustedFormSubmitButtonColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1439,
       "length": 38,
       "value": "\"trustedFormSubmitButtonDisabledColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1648,
       "length": 35,
       "value": "\"trustedFormSubmitButtonTitleColor\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 14,
       "value": "\"tf-checkmark\""
     },
     {
-      "filePath": "\/Users\/johnjohnson\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-aszwodigmcrlwgcaanfluhxngprj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jessehiatt\/Library\/Developer\/Xcode\/DerivedData\/TrustedForm-ahwimfhvvktxykdioecvdmlowoik\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrustedFormSwift\/IntermediateBuildFilesPath\/TrustedForm.build\/Release-iphoneos\/TrustedFormSwift.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2064,
       "length": 12,
