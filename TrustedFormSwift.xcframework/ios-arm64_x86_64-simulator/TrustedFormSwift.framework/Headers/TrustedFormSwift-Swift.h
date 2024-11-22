@@ -277,9 +277,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
-@import Foundation;
-@import UIKit;
 #endif
 
 #endif
@@ -300,28 +297,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
-@class NSString;
-
-SWIFT_CLASS("_TtC16TrustedFormSwift15TrustedFormView")
-@interface TrustedFormView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-- (void)awakeFromNib;
-- (void)layoutSubviews;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
-- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
-@end
-
-
-
-
-SWIFT_PROTOCOL("_TtP16TrustedFormSwift23TrustedFormViewDelegate_")
-@protocol TrustedFormViewDelegate
-@optional
-- (void)submitTappedIn:(TrustedFormView * _Nonnull)trustedFormView;
-@end
-
 
 
 
@@ -618,9 +593,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
-@import Foundation;
-@import UIKit;
 #endif
 
 #endif
@@ -641,28 +613,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
-@class NSString;
-
-SWIFT_CLASS("_TtC16TrustedFormSwift15TrustedFormView")
-@interface TrustedFormView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-- (void)awakeFromNib;
-- (void)layoutSubviews;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
-- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
-@end
-
-
-
-
-SWIFT_PROTOCOL("_TtP16TrustedFormSwift23TrustedFormViewDelegate_")
-@protocol TrustedFormViewDelegate
-@optional
-- (void)submitTappedIn:(TrustedFormView * _Nonnull)trustedFormView;
-@end
-
 
 
 

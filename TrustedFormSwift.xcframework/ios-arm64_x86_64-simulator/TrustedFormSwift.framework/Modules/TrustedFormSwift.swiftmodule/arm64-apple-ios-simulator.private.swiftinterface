@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrustedFormSwift
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrustedFormSwift
 import Alamofire
 import DeveloperToolsSupport
 import Foundation
@@ -12,38 +12,36 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-public struct TrustedFormSwiftUIView : SwiftUI.UIViewRepresentable {
-  public var customizations: TrustedFormSwift.TrustedFormViewCustomizations
-  public init(certificate: TrustedFormSwift.Certificate, onFormSubmit: @escaping () -> Swift.Void, customizations: TrustedFormSwift.TrustedFormViewCustomizations, isHidden: SwiftUI.Binding<Swift.Bool> = .constant(false))
-  @_Concurrency.MainActor(unsafe) public func makeUIView(context: TrustedFormSwift.TrustedFormSwiftUIView.Context) -> TrustedFormSwift.TrustedFormView
-  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: TrustedFormSwift.TrustedFormView, context: TrustedFormSwift.TrustedFormSwiftUIView.Context)
-  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> TrustedFormSwift.TrustedFormSwiftUIView.Coordinator
-  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, TrustedFormSwift.TrustedFormViewDelegate {
-    @objc public func submitTapped(in formView: TrustedFormSwift.TrustedFormView)
-    @objc deinit
-  }
-  public typealias Body = Swift.Never
-  public typealias UIViewType = TrustedFormSwift.TrustedFormView
+extension SwiftUI.View {
+  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole) -> some SwiftUI.View
+  
+  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, text: Swift.String) -> some SwiftUI.View
+  
+  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
+  
+  public func sensitive(_ isSensitive: Swift.Bool = true) -> some SwiftUI.View
+  
+  public func onStartTracking(_ action: @escaping () -> Swift.Void) -> some SwiftUI.View
+  
 }
-public struct TrustedFormViewCustomizations {
-  public var consentBackgroundColor: UIKit.UIColor?
-  public var consentTextColor: UIKit.UIColor?
-  public var consentBorderColor: UIKit.UIColor?
-  public var submitButtonColor: UIKit.UIColor?
-  public var submitButtonDisabledColor: UIKit.UIColor?
-  public var submitButtonTitleColor: UIKit.UIColor?
-  public var submitButtonTitle: Swift.String?
-  public var submitButtonFont: UIKit.UIFont?
-  public var submitButtonCornerRadius: CoreFoundation.CGFloat?
-  public var submitButtonHeight: CoreFoundation.CGFloat?
-  public var consentTextFont: UIKit.UIFont?
-  public var isConsentBorderVisible: Swift.Bool
-  public var consentTextPosition: TrustedFormSwift.TrustedFormView.ConsentPosition?
-  public var isCheckboxRequired: Swift.Bool
-  public var isSubmitEnabled: Swift.Bool
-  public init(consentBackgroundColor: UIKit.UIColor? = nil, consentTextColor: UIKit.UIColor? = nil, consentBorderColor: UIKit.UIColor? = nil, submitButtonColor: UIKit.UIColor? = nil, submitButtonDisabledColor: UIKit.UIColor? = nil, submitButtonTitleColor: UIKit.UIColor? = nil, submitButtonTitle: Swift.String? = nil, submitButtonFont: UIKit.UIFont? = nil, submitButtonCornerRadius: CoreFoundation.CGFloat? = nil, submitButtonHeight: CoreFoundation.CGFloat? = nil, consentTextFont: UIKit.UIFont? = nil, isConsentBorderVisible: Swift.Bool = true, consentTextPosition: TrustedFormSwift.TrustedFormView.ConsentPosition? = nil, isCheckboxRequired: Swift.Bool = true, isSubmitEnabled: Swift.Bool = true)
+extension SwiftUI.TextField {
+  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
+  
+}
+extension SwiftUI.Toggle {
+  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.Bool>) -> some SwiftUI.View
+  
+}
+extension SwiftUI.Button {
+  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, title: Swift.String) -> some SwiftUI.View
+  
 }
 public struct ConsentView : Swift.Decodable {
+  public let id: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+}
+public typealias SubmissionId = Swift.String
+public struct Certificate : Swift.Decodable {
   public let id: Swift.String
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -52,103 +50,30 @@ extension UIKit.UIView {
     get
     set
   }
+  @_Concurrency.MainActor(unsafe) public var tfElementRole: TrustedFormSwift.TFElementRole? {
+    get
+    set
+  }
 }
-public struct Certificate : Swift.Decodable {
-  public let id: Swift.String
-  public var consentText: Swift.String {
+public enum TFElementRole : Swift.Equatable {
+  case submit(submissionId: TrustedFormSwift.SubmissionId, label: Swift.String, index: Swift.Int? = nil)
+  case consentLanguage(submissionId: Swift.String, index: Swift.Int? = nil)
+  case consentLanguageInput(submissionId: Swift.String, label: Swift.String, index: Swift.Int? = nil)
+  case consentOptedAdvertiserInput(submissionId: TrustedFormSwift.SubmissionId, label: Swift.String, index: Swift.Int? = nil)
+  case consentOptedAdvertiserName(submissionId: TrustedFormSwift.SubmissionId, index: Swift.Int? = nil)
+  case consentTrackedField(submissionId: TrustedFormSwift.SubmissionId, index: Swift.Int? = nil)
+  case consentTrackedInput(submissionId: TrustedFormSwift.SubmissionId, label: Swift.String, index: Swift.Int? = nil)
+  case consentTrackedText(submissionId: TrustedFormSwift.SubmissionId, label: Swift.String)
+  public var submissionId: Swift.String? {
     get
   }
-  public init(from decoder: any Swift.Decoder) throws
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class TrustedFormView : UIKit.UIView {
-  public enum ConsentPosition {
-    case top
-    case bottom
-    public static func == (a: TrustedFormSwift.TrustedFormView.ConsentPosition, b: TrustedFormSwift.TrustedFormView.ConsentPosition) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any TrustedFormSwift.TrustedFormViewDelegate)?
-  @_Concurrency.MainActor(unsafe) final public var isSubmitEnabled: Swift.Bool {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var isCheckboxOn: Swift.Bool {
+  public var stringValue: Swift.String {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var isCheckboxRequired: Swift.Bool {
+  public var certificateLabel: Swift.String {
     get
-    set
   }
-  @_Concurrency.MainActor(unsafe) final public var consentBackgroundColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var consentTextColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var submitButtonColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var submitButtonDisabledColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var submitButtonTitleColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var consentBorderColor: UIKit.UIColor? {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var submitButtonTitle: Swift.String? {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var submitButtonFont: UIKit.UIFont {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var submitButtonCornerRadius: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var submitButtonHeight: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var consentTextFont: UIKit.UIFont {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var isConsentBorderVisible: Swift.Bool {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) final public var consentTextPosition: TrustedFormSwift.TrustedFormView.ConsentPosition {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
-  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
-    @objc get
-  }
-  @_Concurrency.MainActor(unsafe) @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-}
-extension TrustedFormSwift.TrustedFormView {
-  @_Concurrency.MainActor(unsafe) final public func initialize(with certificate: TrustedFormSwift.Certificate)
-}
-@objc public protocol TrustedFormViewDelegate {
-  @objc optional func submitTapped(in trustedFormView: TrustedFormSwift.TrustedFormView)
+  public static func == (a: TrustedFormSwift.TFElementRole, b: TrustedFormSwift.TFElementRole) -> Swift.Bool
 }
 public struct Consent : Swift.Decodable {
   public let id: Swift.String
@@ -166,14 +91,14 @@ public struct Consent : Swift.Decodable {
   public static func enableVerboseLogging()
   public static let `default`: TrustedFormSwift.TrustedForm
   final public func configure(appId: Swift.String, accessToken: Swift.String)
-  final public func createCertificate(consentText: Swift.String, completion: @escaping (Swift.Result<TrustedFormSwift.Certificate, any Swift.Error>) -> Swift.Void)
-  final public func addScreenshot(to certificate: TrustedFormSwift.Certificate) throws
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func createCertificate() async throws -> TrustedFormSwift.Certificate
+  #endif
+  final public func addScreenshot(to certificate: TrustedFormSwift.Certificate, delay: Foundation.TimeInterval = 0) throws
   final public func startTracking(for certificate: TrustedFormSwift.Certificate)
   final public func stopTracking(for certificate: TrustedFormSwift.Certificate)
   @objc deinit
 }
-extension TrustedFormSwift.TrustedFormView.ConsentPosition : Swift.Equatable {}
-extension TrustedFormSwift.TrustedFormView.ConsentPosition : Swift.Hashable {}
 extension TrustedFormSwift.Consent.ConsentType : Swift.Equatable {}
 extension TrustedFormSwift.Consent.ConsentType : Swift.Hashable {}
 extension TrustedFormSwift.Consent.ConsentType : Swift.RawRepresentable {}
