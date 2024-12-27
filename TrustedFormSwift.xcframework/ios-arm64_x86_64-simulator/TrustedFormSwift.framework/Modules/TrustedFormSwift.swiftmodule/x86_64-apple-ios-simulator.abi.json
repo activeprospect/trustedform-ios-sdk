@@ -1870,8 +1870,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "trustedFormRole",
-            "printedName": "trustedFormRole(_:)",
+            "name": "tfElementRole",
+            "printedName": "tfElementRole(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1894,8 +1894,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP011TrustedFormA0E07trustedE4RoleyQrAD09TFElementG0OF",
-            "mangledName": "$s7SwiftUI4ViewP011TrustedFormA0E07trustedE4RoleyQrAD09TFElementG0OF",
+            "usr": "s:7SwiftUI4ViewP011TrustedFormA0E13tfElementRoleyQrAD09TFElementH0OF",
+            "mangledName": "$s7SwiftUI4ViewP011TrustedFormA0E13tfElementRoleyQrAD09TFElementH0OF",
             "moduleName": "TrustedFormSwift",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -1904,8 +1904,8 @@
           },
           {
             "kind": "Function",
-            "name": "trustedFormRole",
-            "printedName": "trustedFormRole(_:text:)",
+            "name": "tfElementRole",
+            "printedName": "tfElementRole(_:text:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1934,8 +1934,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP011TrustedFormA0E07trustedE4Role_4textQrAD09TFElementG0O_SStF",
-            "mangledName": "$s7SwiftUI4ViewP011TrustedFormA0E07trustedE4Role_4textQrAD09TFElementG0O_SStF",
+            "usr": "s:7SwiftUI4ViewP011TrustedFormA0E13tfElementRole_4textQrAD09TFElementH0O_SStF",
+            "mangledName": "$s7SwiftUI4ViewP011TrustedFormA0E13tfElementRole_4textQrAD09TFElementH0O_SStF",
             "moduleName": "TrustedFormSwift",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -1944,8 +1944,8 @@
           },
           {
             "kind": "Function",
-            "name": "trustedFormRole",
-            "printedName": "trustedFormRole(_:binding:)",
+            "name": "tfElementRole",
+            "printedName": "tfElementRole(_:binding:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1982,8 +1982,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP011TrustedFormA0E07trustedE4Role_7bindingQrAD09TFElementG0O_AA7BindingVySSGtF",
-            "mangledName": "$s7SwiftUI4ViewP011TrustedFormA0E07trustedE4Role_7bindingQrAD09TFElementG0O_AA7BindingVySSGtF",
+            "usr": "s:7SwiftUI4ViewP011TrustedFormA0E13tfElementRole_7bindingQrAD09TFElementH0O_AA7BindingVySSGtF",
+            "mangledName": "$s7SwiftUI4ViewP011TrustedFormA0E13tfElementRole_7bindingQrAD09TFElementH0O_AA7BindingVySSGtF",
             "moduleName": "TrustedFormSwift",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -2097,8 +2097,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "trustedFormRole",
-            "printedName": "trustedFormRole(_:binding:)",
+            "name": "tfElementRole",
+            "printedName": "tfElementRole(_:binding:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2135,8 +2135,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI9TextFieldV011TrustedFormA0E07trustedF4Role_7bindingQrAD09TFElementH0O_AA7BindingVySSGtF",
-            "mangledName": "$s7SwiftUI9TextFieldV011TrustedFormA0E07trustedF4Role_7bindingQrAD09TFElementH0O_AA7BindingVySSGtF",
+            "usr": "s:7SwiftUI9TextFieldV011TrustedFormA0E13tfElementRole_7bindingQrAD09TFElementI0O_AA7BindingVySSGtF",
+            "mangledName": "$s7SwiftUI9TextFieldV011TrustedFormA0E13tfElementRole_7bindingQrAD09TFElementI0O_AA7BindingVySSGtF",
             "moduleName": "TrustedFormSwift",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Label where Label : SwiftUI.View>",
@@ -2207,8 +2207,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "trustedFormRole",
-            "printedName": "trustedFormRole(_:binding:)",
+            "name": "tfElementRole",
+            "printedName": "tfElementRole(_:binding:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2245,8 +2245,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI6ToggleV011TrustedFormA0E07trustedE4Role_7bindingQrAD09TFElementG0O_AA7BindingVySbGtF",
-            "mangledName": "$s7SwiftUI6ToggleV011TrustedFormA0E07trustedE4Role_7bindingQrAD09TFElementG0O_AA7BindingVySbGtF",
+            "usr": "s:7SwiftUI6ToggleV011TrustedFormA0E13tfElementRole_7bindingQrAD09TFElementH0O_AA7BindingVySbGtF",
+            "mangledName": "$s7SwiftUI6ToggleV011TrustedFormA0E13tfElementRole_7bindingQrAD09TFElementH0O_AA7BindingVySbGtF",
             "moduleName": "TrustedFormSwift",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Label where Label : SwiftUI.View>",
@@ -2317,8 +2317,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "trustedFormRole",
-            "printedName": "trustedFormRole(_:title:)",
+            "name": "tfElementRole",
+            "printedName": "tfElementRole(_:title:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2347,8 +2347,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI6ButtonV011TrustedFormA0E07trustedE4Role_5titleQrAD09TFElementG0O_SStF",
-            "mangledName": "$s7SwiftUI6ButtonV011TrustedFormA0E07trustedE4Role_5titleQrAD09TFElementG0O_SStF",
+            "usr": "s:7SwiftUI6ButtonV011TrustedFormA0E13tfElementRole_5titleQrAD09TFElementH0O_SStF",
+            "mangledName": "$s7SwiftUI6ButtonV011TrustedFormA0E13tfElementRole_5titleQrAD09TFElementH0O_SStF",
             "moduleName": "TrustedFormSwift",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Label where Label : SwiftUI.View>",
@@ -2930,14 +2930,14 @@
     {
       "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View+TrustedForm.swift",
       "kind": "BooleanLiteral",
-      "offset": 4988,
+      "offset": 4982,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jessehiatt\/Source\/trustedform-ios\/TrustedForm\/TrustedForm\/View+TrustedForm.swift",
       "kind": "BooleanLiteral",
-      "offset": 11461,
+      "offset": 11449,
       "length": 5,
       "value": "false"
     },
