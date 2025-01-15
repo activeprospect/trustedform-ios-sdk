@@ -13,11 +13,11 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 extension SwiftUI.View {
-  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole) -> some SwiftUI.View
   
-  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, text: Swift.String) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, text: Swift.String) -> some SwiftUI.View
   
-  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
   
   public func sensitive(_ isSensitive: Swift.Bool = true) -> some SwiftUI.View
   
@@ -25,15 +25,15 @@ extension SwiftUI.View {
   
 }
 extension SwiftUI.TextField {
-  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
   
 }
 extension SwiftUI.Toggle {
-  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.Bool>) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.Bool>) -> some SwiftUI.View
   
 }
 extension SwiftUI.Button {
-  public func trustedFormRole(_ role: TrustedFormSwift.TFElementRole, title: Swift.String) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, title: Swift.String) -> some SwiftUI.View
   
 }
 public struct ConsentView : Swift.Decodable {
