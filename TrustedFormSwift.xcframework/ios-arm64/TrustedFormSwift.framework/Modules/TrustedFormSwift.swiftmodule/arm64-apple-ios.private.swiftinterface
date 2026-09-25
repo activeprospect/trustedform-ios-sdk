@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrustedFormSwift
-import Alamofire
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import DeveloperToolsSupport
 import Foundation
 import Swift
@@ -12,28 +12,28 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-extension SwiftUI.View {
-  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole) -> some SwiftUI.View
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func tfElementRole(_ role: TrustedFormSwift.TFElementRole) -> some SwiftUICore.View
   
-  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, text: Swift.String) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, text: Swift.String) -> some SwiftUICore.View
   
-  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUICore.Binding<Swift.String>) -> some SwiftUICore.View
   
-  public func sensitive(_ isSensitive: Swift.Bool = true) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func sensitive(_ isSensitive: Swift.Bool = true) -> some SwiftUICore.View
   
-  public func onStartTracking(_ action: @escaping () -> Swift.Void) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func onStartTracking(_ action: @escaping () -> Swift.Void) -> some SwiftUICore.View
   
 }
 extension SwiftUI.TextField {
-  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUICore.Binding<Swift.String>) -> some SwiftUICore.View
   
 }
 extension SwiftUI.Toggle {
-  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUI.Binding<Swift.Bool>) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, binding: SwiftUICore.Binding<Swift.Bool>) -> some SwiftUICore.View
   
 }
 extension SwiftUI.Button {
-  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, title: Swift.String) -> some SwiftUI.View
+  public func tfElementRole(_ role: TrustedFormSwift.TFElementRole, title: Swift.String) -> some SwiftUICore.View
   
 }
 public struct ConsentView : Swift.Decodable {
@@ -46,11 +46,11 @@ public struct Certificate : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var isSensitive: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency public var isSensitive: Swift.Bool {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var tfElementRole: TrustedFormSwift.TFElementRole? {
+  @_Concurrency.MainActor @preconcurrency public var tfElementRole: TrustedFormSwift.TFElementRole? {
     get
     set
   }
@@ -91,9 +91,7 @@ public struct Consent : Swift.Decodable {
   public static func enableVerboseLogging()
   public static let `default`: TrustedFormSwift.TrustedForm
   final public func configure(appId: Swift.String, accessToken: Swift.String)
-  #if compiler(>=5.3) && $AsyncAwait
   final public func createCertificate() async throws -> TrustedFormSwift.Certificate
-  #endif
   final public func addScreenshot(to certificate: TrustedFormSwift.Certificate, delay: Foundation.TimeInterval = 0) throws
   final public func startTracking(for certificate: TrustedFormSwift.Certificate)
   final public func stopTracking(for certificate: TrustedFormSwift.Certificate)
